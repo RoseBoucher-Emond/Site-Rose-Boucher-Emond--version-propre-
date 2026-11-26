@@ -1,0 +1,1918 @@
+<!DOCTYPE html>
+<html lang="fr" data-pli="horizontal" data-legendes="dessus">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
+<meta name="theme-color" content="#f7f7f0">
+<script>/* à ne pas modifier : sur une tablette, le site s'affiche comme sur l'ordinateur, en plus petit */
+(function () {
+  var sw = Math.min(screen.width, screen.height) > 760 ? Math.min(screen.width, innerWidth || screen.width) : 0;
+  var meta = document.querySelector('meta[name="viewport"]');
+  if (meta && sw > 760 && sw < 1100 && ("ontouchstart" in window)) meta.setAttribute("content", "width=1100");
+})();
+</script>
+<title>Rose Boucher-Emond</title>
+<!-- l'icône du site -->
+<link rel="icon" type="image/png" href="images/site/icone.png">
+<link rel="apple-touch-icon" href="images/site/icone.png">
+<link rel="stylesheet" href="style/site.css?v=24.4">
+
+</head>
+
+<body>
+
+
+
+
+<!-- ======================================================================================
+
+     1.  TON COURRIEL ET TON TÉLÉPHONE
+
+     ====================================================================================== -->
+
+<script>
+  window.CONTACT = {
+    courriel:   "bour5154@collegefdl.net",
+    telephone:  "418 564 8532"
+  };
+</script>
+
+
+
+
+
+<!-- ======================================================================================
+
+     2.  LA LISTE DE TES PROJETS
+
+     ====================================================================================== -->
+
+<script>
+  window.PROJETS = [
+
+    {
+      no:          "09",                                                        // le numéro du projet
+      page:        "#/centre-national-du-film",                                 // l'adresse de sa page (le même nom que data-page="…" plus bas)
+
+      titre:       "Le Centre national du film du Québec",
+      titre_en:    "The Québec National Film Centre",
+      sous:        "",                                                          // un sous-titre (facultatif : "" si aucun)
+      sous_en:     "",
+      lignes:      ["Le Centre national", "du film du Québec"],                 // (facultatif) le titre coupé en 2 lignes dans le cahier
+      lignes_en:   ["The Québec National", "Film Centre"],
+      annee:       "2026",
+
+      couverture:  "images/projets/09-centre-national-du-film/c-ecran-nuit.jpg",    // l'image du cahier
+      entier:      1.18,                                                        // la forme de cette image : largeur ÷ hauteur
+
+      // les 2 ou 3 images posées sur la CARTE : ["image", largeur ÷ hauteur] (ajouter "plan" pour un dessin sur fond blanc)
+      carte: [
+        ["images/projets/09-centre-national-du-film/c-ecran-nuit.jpg", 1.18],
+        ["images/projets/09-centre-national-du-film/c-maq-a2.jpg", 1.3],
+        ["images/projets/09-centre-national-du-film/c-int-3.jpg", 1.18]
+      ]
+    },
+
+
+    {
+      no:          "08",                                                        // le numéro du projet
+      page:        "#/prochains-arrets",                                        // l'adresse de sa page (le même nom que data-page="…" plus bas)
+
+      titre:       "Prochains arrêts…",
+      titre_en:    "Next Stops…",
+      sous:        "",                                                          // un sous-titre (facultatif : "" si aucun)
+      sous_en:     "",
+      annee:       "2026",
+
+      couverture:  "images/projets/08-prochains-arrets/pa-expo-1.jpg",             // l'image du cahier
+      entier:      1.5,                                                         // la forme de cette image : largeur ÷ hauteur
+
+      // les 2 ou 3 images posées sur la CARTE : ["image", largeur ÷ hauteur] (ajouter "plan" pour un dessin sur fond blanc)
+      carte: [
+        ["images/projets/08-prochains-arrets/pa-expo-1.jpg", 1.5],
+        ["images/projets/08-prochains-arrets/pa-contexte-2.jpg", 0.667],
+        ["images/projets/08-prochains-arrets/pa-axonometrie.jpg", 0.707, "plan"]
+      ]
+    },
+
+
+    {
+      no:          "07",                                                        // le numéro du projet
+      page:        "#/1er-juillet",                                             // l'adresse de sa page (le même nom que data-page="…" plus bas)
+
+      titre:       "1er Juillet",
+      titre_en:    "July 1st",
+      sous:        "La crise de l’objet",                                       // un sous-titre (facultatif : "" si aucun)
+      sous_en:     "La Crise de l’Objet",
+      annee:       "Hiver 2026",
+
+      couverture:  "images/projets/07-1er-juillet/o-diable-1.jpg",                 // l'image du cahier
+      entier:      0.8,                                                         // la forme de cette image : largeur ÷ hauteur
+
+      // les 2 ou 3 images posées sur la CARTE : ["image", largeur ÷ hauteur] (ajouter "plan" pour un dessin sur fond blanc)
+      carte: [
+        ["images/projets/07-1er-juillet/o-diable-1.jpg", 0.8],
+        ["images/projets/07-1er-juillet/o-croquis.jpg", 1.02, "plan"],
+        ["images/projets/07-1er-juillet/o-rue.jpg", 0.86]
+      ]
+    },
+
+
+    {
+      no:          "06",                                                        // le numéro du projet
+      page:        "#/16-architectures-manifestes",                             // l'adresse de sa page (le même nom que data-page="…" plus bas)
+
+      titre:       "16 architectures manifestes",
+      titre_en:    "16 Manifesto Architectures",
+      sous:        "",                                                          // un sous-titre (facultatif : "" si aucun)
+      sous_en:     "",
+      annee:       "Automne 2025",
+
+      couverture:  "images/projets/06-16-architectures-manifestes/m-expo-1.jpg",    // l'image du cahier
+      entier:      0.75,                                                        // la forme de cette image : largeur ÷ hauteur
+
+      // les 2 ou 3 images posées sur la CARTE : ["image", largeur ÷ hauteur] (ajouter "plan" pour un dessin sur fond blanc)
+      carte: [
+        ["images/projets/06-16-architectures-manifestes/m-expo-1.jpg", 0.75],
+        ["images/projets/06-16-architectures-manifestes/m-machine-3.jpg", 1.44]
+      ]
+    },
+
+
+    {
+      no:          "05",                                                        // le numéro du projet
+      page:        "#/musee-namib",                                             // l'adresse de sa page (le même nom que data-page="…" plus bas)
+
+      titre:       "Conception d’un musée spéculatif dans le désert de Namib",
+      titre_en:    "Designing a Speculative Museum in the Namib Desert",
+      sous:        "",                                                          // un sous-titre (facultatif : "" si aucun)
+      sous_en:     "",
+      lignes_lien:    ["Conception d’un musée spéculatif dans le désert", "de Namib"],    // (facultatif) le titre coupé en 2 lignes dans les liens « projet précédent / suivant »
+      lignes_lien_en: ["Designing a Speculative Museum", "in the Namib Desert"],
+      annee:       "Automne 2025",
+
+      couverture:  "images/projets/05-musee-namib/n-namib.jpg",                    // l'image du cahier
+      entier:      1.315,                                                       // la forme de cette image : largeur ÷ hauteur
+      largeur:     38,                                                          // (petite image : la tuile reste petite pour ne pas pixeliser)
+      largeurMax:  600,
+      gauche:      54,
+
+      // les 2 ou 3 images posées sur la CARTE : ["image", largeur ÷ hauteur] (ajouter "plan" pour un dessin sur fond blanc)
+      carte: [
+        ["images/projets/05-musee-namib/n-namib.jpg", 1.315],
+        ["images/projets/05-musee-namib/n-mirabilia.jpg", 1.5],
+        ["images/projets/05-musee-namib/n-robot-3.jpg", 0.68]
+      ]
+    },
+
+
+    {
+      no:          "04",                                                        // le numéro du projet
+      page:        "#/art-du-quotidien",                                        // l'adresse de sa page (le même nom que data-page="…" plus bas)
+
+      titre:       "L’Art du quotidien",
+      titre_en:    "The Art of the Everyday",
+      sous:        "INSA Strasbourg",                                           // un sous-titre (facultatif : "" si aucun)
+      sous_en:     "INSA Strasbourg",
+      annee:       "Hiver 2025",
+
+      couverture:  "images/projets/04-art-du-quotidien/s-coupe-persp.jpg",         // l'image du cahier
+      entier:      1.77,                                                        // la forme de cette image : largeur ÷ hauteur
+
+      // les 2 ou 3 images posées sur la CARTE : ["image", largeur ÷ hauteur] (ajouter "plan" pour un dessin sur fond blanc)
+      carte: [
+        ["images/projets/04-art-du-quotidien/s-coupe-persp.jpg", 1.77, "plan"],
+        ["images/projets/04-art-du-quotidien/s-rotonde.jpg", 0.78, "plan"]
+      ]
+    },
+
+
+    {
+      no:          "03",                                                        // le numéro du projet
+      page:        "#/effet-papillon",                                          // l'adresse de sa page (le même nom que data-page="…" plus bas)
+
+      titre:       "L’effet papillon",
+      titre_en:    "The Butterfly Effect",
+      sous:        "",                                                          // un sous-titre (facultatif : "" si aucun)
+      sous_en:     "",
+      annee:       "Hiver 2024",
+
+      couverture:  "images/projets/03-effet-papillon/f-maquette.jpg",              // l'image du cahier
+      entier:      1.36,                                                        // la forme de cette image : largeur ÷ hauteur
+
+      // les 2 ou 3 images posées sur la CARTE : ["image", largeur ÷ hauteur] (ajouter "plan" pour un dessin sur fond blanc)
+      carte: [
+        ["images/projets/03-effet-papillon/f-maquette.jpg", 1.36],
+        ["images/projets/03-effet-papillon/f-bulle.jpg", 0.75],
+        ["images/projets/03-effet-papillon/f-plan-bulles.jpg", 1.14, "plan"]
+      ]
+    },
+
+
+    {
+      no:          "02",                                                        // le numéro du projet
+      page:        "#/champ-spatial",                                           // l'adresse de sa page (le même nom que data-page="…" plus bas)
+
+      titre:       "Le champ spatial",
+      titre_en:    "The Spatial Field",
+      sous:        "",                                                          // un sous-titre (facultatif : "" si aucun)
+      sous_en:     "",
+      annee:       "Hiver 2024",
+
+      couverture:  "images/projets/02-champ-spatial/a-vue-ext.jpg",                // l'image du cahier
+
+      // les 2 ou 3 images posées sur la CARTE : ["image", largeur ÷ hauteur] (ajouter "plan" pour un dessin sur fond blanc)
+      carte: [
+        ["images/projets/02-champ-spatial/a-vue-ext.jpg", 1.79],
+        ["images/projets/02-champ-spatial/a-int-gradins.jpg", 1.78],
+        ["images/projets/02-champ-spatial/a-plan-l2.jpg", 1.78, "plan"]
+      ]
+    },
+
+
+    {
+      no:          "01",                                                        // le numéro du projet
+      page:        "#/inspire",                                                 // l'adresse de sa page (le même nom que data-page="…" plus bas)
+
+      titre:       "Inspire",
+      titre_en:    "Inspire",
+      sous:        "",                                                          // un sous-titre (facultatif : "" si aucun)
+      sous_en:     "",
+      annee:       "Automne 2023",
+
+      couverture:  "images/projets/01-inspire/b-objet-2.jpg",                      // l'image du cahier
+
+      // les 2 ou 3 images posées sur la CARTE : ["image", largeur ÷ hauteur] (ajouter "plan" pour un dessin sur fond blanc)
+      carte: [
+        ["images/projets/01-inspire/b-objet-2.jpg", 0.75],
+        ["images/projets/01-inspire/b-cyano-1.jpg", 1],
+        ["images/projets/01-inspire/b-mapping.jpg", 1.41, "plan"]
+      ]
+    }
+
+  ];
+</script>
+
+
+
+
+<!-- ======================================================================================
+
+     3.  LES PAGES DU SITE
+
+     ====================================================================================== -->
+
+
+
+
+
+
+<!-- ======================================================================================
+
+     ACCUEIL
+
+     ====================================================================================== -->
+
+<template data-page="accueil" data-classe="accueil">
+<main class="calques" id="calques"><div class="monde-calques"></div></main>
+</template>
+
+
+
+
+
+<!-- ======================================================================================
+
+     PAGE PROJETS
+     le cahier et la carte se remplissent tout seuls avec ta liste de projets (partie 2)
+
+     ====================================================================================== -->
+
+<template data-page="projets" data-classe="accueil">
+<main class="vue grille" id="vue-grille"></main>
+<main class="vue carte" id="vue-carte">
+  <div class="monde"></div>
+</main>
+<fr>
+  <nav class="choix-vue" aria-label="Façon de voir les projets">
+    <button type="button" data-vue="grille" aria-pressed="true">cahier</button>
+    <button type="button" data-vue="carte" aria-pressed="false">carte</button>
+  </nav>
+</fr>
+<en>
+  <nav class="choix-vue" aria-label="How to view the projects">
+    <button type="button" data-vue="grille" aria-pressed="true">notebook</button>
+    <button type="button" data-vue="carte" aria-pressed="false">map</button>
+  </nav>
+</en>
+</template>
+
+
+
+
+
+<!-- ======================================================================================
+
+     À PROPOS
+     ta bio, ton CV et ta photo
+
+     ====================================================================================== -->
+
+<template data-page="a-propos" data-classe="apropos">
+<main class="page-entree">
+  <section class="deux-moities" id="bio">
+    <div class="g bio">
+      <fr>
+        <p class="bio-texte">Je m’intéresse aux approches expérimentales et interdisciplinaires de l’architecture. Ma démarche accorde une importance particulière au processus de conception, à l’exploration de différentes méthodes de représentation et de documentation, ainsi qu’à l’expérimentation comme outil de réflexion. Sensible aux enjeux sociaux, environnementaux et matériels, j’explore les relations entre l’existant, les ressources disponibles et les possibilités de transformation des milieux construits, notamment à travers le réemploi et&nbsp;l’adaptation.</p>
+      </fr>
+      <en>
+        <p class="bio-texte">I am interested in experimental and interdisciplinary approaches to architecture. My practice places particular importance on the design process, on exploring different methods of representation and documentation, and on experimentation as a tool for reflection. Attentive to social, environmental and material issues, I explore the relationships between what already exists, available resources and the possibilities for transforming built environments, particularly through reuse and&nbsp;adaptation.</p>
+      </en>
+      <p class="bio-courriel"><span class="ico-tache t1"><svg class="ico" viewBox="0 0 44 34" aria-hidden="true"><use href="#ico-enveloppe"/></svg></span><a class="courriel" data-contact="courriel"><span></span><svg class="trait-crayon trait-cr" aria-hidden="true"></svg></a></p>
+      <p class="bio-courriel bio-tel"><span class="ico-tache t2"><svg class="ico" viewBox="0 0 44 34" aria-hidden="true"><use href="#ico-telephone"/></svg></span><a class="courriel" data-contact="telephone"><span></span><svg class="trait-crayon trait-cr" aria-hidden="true"></svg></a></p>
+      <fr>
+        <p class="bio-courriel bio-cv"><a class="courriel" href="documents/cv/fr/CV_Rose%20Boucher-Emond.pdf" target="_blank" rel="noopener" data-cv="documents/cv/fr/apercu-cv.png" data-cv-tel="Télécharger le PDF" data-cv-fermer="fermer" data-cv-alt="CV de Rose Boucher-Emond"><span>Voir le CV en PDF</span><svg class="trait-crayon trait-cr" aria-hidden="true"></svg></a></p>
+      </fr>
+      <en>
+        <p class="bio-courriel bio-cv"><a class="courriel" href="documents/cv/en/CV_Rose%20Boucher-Emond.pdf" target="_blank" rel="noopener" data-cv="documents/cv/en/apercu-cv.png" data-cv-tel="Download the PDF" data-cv-fermer="close" data-cv-alt="Rose Boucher-Emond’s CV"><span>View the CV as a PDF</span><svg class="trait-crayon trait-cr" aria-hidden="true"></svg></a></p>
+      </en>
+    </div>
+    <div class="d portrait">
+      <span class="photo-rose"><img src="images/projets/07-1er-juillet/o-rue.jpg" alt="Rose Boucher-Emond" loading="lazy"><img class="scotch hd bleu" src="images/site/ruban-bleu.png" alt="" draggable="false" style="--t:-2deg"></span>
+    </div>
+  </section>
+</main>
+</template>
+
+
+
+
+
+<!-- ======================================================================================
+
+     PROJET 01 — INSPIRE
+     (adresse : index.html#/inspire)
+
+     ====================================================================================== -->
+
+<template data-page="inspire" data-classe="">
+<main class="projet4 page-entree">
+
+
+  <!-- ——————  OUVERTURE : la grande image du haut, puis le titre et la fiche  —————— -->
+
+  <section class="p4-grille p4-ouverture">
+    <fr>
+      <figure class="leg-bas p4-hero"><span class="im" tabindex="0" role="button"><img src="images/projets/01-inspire/b-objet-2.jpg" alt="L'objet, vue de face"><img class="scotch h bleu" src="images/site/ruban-bleu.png" alt="" draggable="false" style="--t:-5deg"></span><figcaption>L'objet, vue de face</figcaption></figure>
+    </fr>
+    <en>
+      <figure class="leg-bas p4-hero"><span class="im" tabindex="0" role="button"><img src="images/projets/01-inspire/b-objet-2.jpg" alt="The object, front view"><img class="scotch h bleu" src="images/site/ruban-bleu.png" alt="" draggable="false" style="--t:-5deg"></span><figcaption>The object, front view</figcaption></figure>
+    </en>
+    <div class="p4-coin">
+      <div class="entete">
+        <h1 class="projet-titre"><span class="numero main">01</span><span class="titre-cap">Inspire</span><span class="annee-titre main">2023</span></h1>
+        <dl class="fiche">
+          <fr>
+            <dt>Professeur</dt><dd>Philippe Champagne</dd>
+          </fr>
+          <en>
+            <dt>Professor</dt><dd>Philippe Champagne</dd>
+          </en>
+          <dt>Collaboration</dt><dd>Simone Leblanc, Marcel&nbsp;Chapeau</dd>
+        </dl>
+      </div>
+      <ol class="chapitres">
+        <fr>
+          <li><a href="#ch-1"><span class="biffe"><span class="i">1.</span>L'objet</span></a></li>
+          <li><a href="#ch-2"><span class="biffe"><span class="i">2.</span>Le cyanotype</span></a></li>
+          <li><a href="#ch-3"><span class="biffe"><span class="i">3.</span>Le mapping</span></a></li>
+        </fr>
+        <en>
+          <li><a href="#ch-1"><span class="biffe"><span class="i">1.</span>The object</span></a></li>
+          <li><a href="#ch-2"><span class="biffe"><span class="i">2.</span>The cyanotype</span></a></li>
+          <li><a href="#ch-3"><span class="biffe"><span class="i">3.</span>The mapping</span></a></li>
+        </en>
+      </ol>
+    </div>
+  </section>
+
+
+  <!-- ——————  CHAPITRE 1  —————— -->
+
+  <section class="p4-grille p4-chapitre" id="ch-1">
+
+    <div class="p4-texte g" style="grid-row:1 / span 2">
+      <fr>
+        <h2 class="chapitre-nom">L'objet</h2>
+        <p>Ce projet explore la transformation du bois à travers ses propriétés d’absorption et de dégradation, en croisant des pratiques de parasitage naturel et des interventions contrôlées. L’immersion, l’oxydation, la symbiose mycélienne ou l’anaské dialoguent avec l’application de solvants, colles et peintures, générant des hybridations successives qui révèlent les traces d’un processus de morphogenèse&nbsp;répété.</p>
+        <p>La porosité du bois, accentuée par l’humidité et les agressions chimiques, devient un registre sensible où rainures et altérations témoignent de la matière en mutation. Fragile mais résilient, le bois agit comme un réceptacle silencieux de ces transformations, inscrivant le passage du temps dans sa&nbsp;surface.</p>
+      </fr>
+      <en>
+        <h2 class="chapitre-nom">The object</h2>
+        <p>This project explores the transformation of wood through its properties of absorption and degradation, combining natural parasitic processes with controlled interventions. Immersion, oxidation, mycelial symbiosis and anaské interact with the application of solvents, glues and paints, generating successive hybridizations that reveal the traces of a repeated process of&nbsp;morphogenesis.</p>
+        <p>The porosity of the wood, heightened by moisture and chemical attacks, becomes a sensitive record in which grooves and alterations bear witness to a material in mutation. Fragile yet resilient, the wood acts as a silent receptacle for these transformations, inscribing the passage of time into its&nbsp;surface.</p>
+      </en>
+    </div>
+    <figure class="leg-bas p4-img" style="grid-column:6 / span 3;grid-row:1;max-width:calc(var(--hmax) * 0.727)">
+      <fr>
+        <span class="im" tabindex="0" role="button"><img src="images/projets/01-inspire/b-objet-1.jpg" alt="Écorce, peinture et branches"><img class="scotch hd bleu" src="images/site/ruban-bleu.png" alt="" draggable="false" style="--t:-3deg"></span>
+        <figcaption>Écorce, peinture et branches</figcaption>
+      </fr>
+      <en>
+        <span class="im" tabindex="0" role="button"><img src="images/projets/01-inspire/b-objet-1.jpg" alt="Bark, paint and branches"><img class="scotch hd bleu" src="images/site/ruban-bleu.png" alt="" draggable="false" style="--t:-3deg"></span>
+        <figcaption>Bark, paint and branches</figcaption>
+      </en>
+    </figure>
+
+    <figure class="p4-img bas bord-d" style="grid-column:10 / span 3;grid-row:1;max-width:calc(var(--hmax) * 0.588)">
+      <fr>
+        <span class="im" tabindex="0" role="button"><img src="images/projets/01-inspire/b-objet-3.jpg" alt="Vue de côté"><img class="scotch hg bleu" src="images/site/ruban-bleu.png" alt="" draggable="false" style="--t:-6deg"><img class="scotch hd bleu" src="images/site/ruban-bleu.png" alt="" draggable="false" style="--t:5deg"></span>
+        <figcaption>Vue de côté</figcaption>
+      </fr>
+      <en>
+        <span class="im" tabindex="0" role="button"><img src="images/projets/01-inspire/b-objet-3.jpg" alt="Side view"><img class="scotch hg bleu" src="images/site/ruban-bleu.png" alt="" draggable="false" style="--t:-6deg"><img class="scotch hd bleu" src="images/site/ruban-bleu.png" alt="" draggable="false" style="--t:5deg"></span>
+        <figcaption>Side view</figcaption>
+      </en>
+    </figure>
+
+    <figure class="p4-img" style="grid-column:7 / span 4;grid-row:2;max-width:calc(var(--hmax) * 0.846)">
+      <fr>
+        <span class="im" tabindex="0" role="button"><img src="images/projets/01-inspire/b-objet-4.jpg" alt="Le bois brûlé, oxydé"></span>
+        <figcaption>Le bois brûlé, oxydé</figcaption>
+      </fr>
+      <en>
+        <span class="im" tabindex="0" role="button"><img src="images/projets/01-inspire/b-objet-4.jpg" alt="Burnt, oxidized wood"></span>
+        <figcaption>Burnt, oxidized wood</figcaption>
+      </en>
+    </figure>
+  </section>
+
+
+  <!-- ——————  CHAPITRE 2  —————— -->
+
+  <section class="p4-grille p4-chapitre" id="ch-2">
+
+    <div class="p4-texte d" style="grid-row:1 / span 1">
+      <fr>
+        <h2 class="chapitre-nom">Le cyanotype</h2>
+        <p>Ce travail est complété par l’utilisation du cyanotype, procédé photographique ancien dont le bleu profond révèle, par l’action de la lumière et de l’eau, les empreintes et strates issues de ces processus&nbsp;expérimentaux.</p>
+      </fr>
+      <en>
+        <h2 class="chapitre-nom">The cyanotype</h2>
+        <p>This work is completed by the use of cyanotype, an early photographic process whose deep blue reveals, through the action of light and water, the imprints and layers left by these experimental&nbsp;processes.</p>
+      </en>
+    </div>
+    <figure class="espace-bas p4-img bord-g" style="grid-column:1 / span 6;grid-row:1;max-width:calc(var(--hmax) * 1.301)">
+      <fr>
+        <span class="im" tabindex="0" role="button"><img src="images/projets/01-inspire/b-bain.jpg" alt="Développement des cyanotypes"><img class="scotch hd bleu" src="images/site/ruban-bleu.png" alt="" draggable="false" style="--t:-7deg"></span>
+        <figcaption>Développement des cyanotypes</figcaption>
+      </fr>
+      <en>
+        <span class="im" tabindex="0" role="button"><img src="images/projets/01-inspire/b-bain.jpg" alt="Developing the cyanotypes"><img class="scotch hd bleu" src="images/site/ruban-bleu.png" alt="" draggable="false" style="--t:-7deg"></span>
+        <figcaption>Developing the cyanotypes</figcaption>
+      </en>
+    </figure>
+
+    <figure class="p4-img bord-g" style="grid-column:1 / span 4;grid-row:2;max-width:calc(var(--hmax) * 0.998)">
+      <fr>
+        <span class="im" tabindex="0" role="button"><img src="images/projets/01-inspire/b-cyano-1.jpg" alt="Empreinte, nœud du bois"></span>
+        <figcaption>Empreinte, nœud du bois</figcaption>
+      </fr>
+      <en>
+        <span class="im" tabindex="0" role="button"><img src="images/projets/01-inspire/b-cyano-1.jpg" alt="Imprint, wood knot"></span>
+        <figcaption>Imprint, wood knot</figcaption>
+      </en>
+    </figure>
+
+    <figure class="p4-img bas droite" style="grid-column:5 / span 4;grid-row:2;max-width:calc(var(--hmax) * 0.998)">
+      <fr>
+        <span class="im" tabindex="0" role="button"><img src="images/projets/01-inspire/b-cyano-2.jpg" alt="Empreinte, planche fendue"></span>
+        <figcaption>Empreinte, planche fendue</figcaption>
+      </fr>
+      <en>
+        <span class="im" tabindex="0" role="button"><img src="images/projets/01-inspire/b-cyano-2.jpg" alt="Imprint, split board"></span>
+        <figcaption>Imprint, split board</figcaption>
+      </en>
+    </figure>
+
+    <figure class="p4-img monte bord-d" style="grid-column:9 / span 4;grid-row:2;max-width:calc(var(--hmax) * 0.991)">
+      <fr>
+        <span class="im" tabindex="0" role="button"><img src="images/projets/01-inspire/b-cyano-3.jpg" alt="Empreinte, lichens et mycètes"><img class="scotch hd bleu" src="images/site/ruban-bleu.png" alt="" draggable="false" style="--t:1deg"></span>
+        <figcaption>Empreinte, lichens et mycètes</figcaption>
+      </fr>
+      <en>
+        <span class="im" tabindex="0" role="button"><img src="images/projets/01-inspire/b-cyano-3.jpg" alt="Imprint, lichens and fungi"><img class="scotch hd bleu" src="images/site/ruban-bleu.png" alt="" draggable="false" style="--t:1deg"></span>
+        <figcaption>Imprint, lichens and fungi</figcaption>
+      </en>
+    </figure>
+
+    <figure class="p4-img" style="grid-column:2 / span 4;grid-row:3;max-width:calc(var(--hmax) * 1.019)">
+      <fr>
+        <span class="im" tabindex="0" role="button"><img src="images/projets/01-inspire/b-cyano-5.jpg" alt="Empreinte, rainures"></span>
+        <figcaption>Empreinte, rainures</figcaption>
+      </fr>
+      <en>
+        <span class="im" tabindex="0" role="button"><img src="images/projets/01-inspire/b-cyano-5.jpg" alt="Imprint, grooves"></span>
+        <figcaption>Imprint, grooves</figcaption>
+      </en>
+    </figure>
+
+    <figure class="p4-img bas" style="grid-column:6 / span 3;grid-row:3;max-width:calc(var(--hmax) * 0.752)">
+      <fr>
+        <span class="im" tabindex="0" role="button"><img src="images/projets/01-inspire/b-cyano-7.jpg" alt="Fil du bois"><img class="scotch hg bleu" src="images/site/ruban-bleu.png" alt="" draggable="false" style="--t:5deg"></span>
+        <figcaption>Fil du bois</figcaption>
+      </fr>
+      <en>
+        <span class="im" tabindex="0" role="button"><img src="images/projets/01-inspire/b-cyano-7.jpg" alt="Wood grain"><img class="scotch hg bleu" src="images/site/ruban-bleu.png" alt="" draggable="false" style="--t:5deg"></span>
+        <figcaption>Wood grain</figcaption>
+      </en>
+    </figure>
+
+    <figure class="p4-img chev bas2 bord-d" style="grid-column:9 / span 4;grid-row:3;max-width:calc(var(--hmax) * 1.032)">
+      <span class="im" tabindex="0" role="button"><img src="images/projets/01-inspire/b-cyano-6.jpg" alt=""></span>
+    </figure>
+
+    <figure class="p4-img" style="grid-column:4 / span 5;grid-row:4;max-width:calc(var(--hmax) * 1.032)">
+      <span class="im" tabindex="0" role="button"><img src="images/projets/01-inspire/b-cyano-4.jpg" alt=""></span>
+    </figure>
+  </section>
+
+
+  <!-- ——————  CHAPITRE 3  —————— -->
+
+  <section class="p4-grille p4-chapitre" id="ch-3" style="margin-top:12vh">
+
+    <div class="p4-texte g" style="grid-row:1 / span 1">
+      <fr>
+        <h2 class="chapitre-nom">Le mapping</h2>
+      </fr>
+      <en>
+        <h2 class="chapitre-nom">The mapping</h2>
+      </en>
+    </div>
+
+    <figure class="p4-img plan bord-d leg-bas-mob leg-g-mob" style="grid-column:6 / span 7;grid-row:1;max-width:calc(var(--hmax) * 1.415)">
+      <fr>
+        <span class="im" tabindex="0" role="button"><img src="images/projets/01-inspire/b-mapping.jpg" alt="Mapping, île d'Orléans — taux d'asphyxie et d'émancipation du bois"></span>
+        <figcaption>Mapping, île d'Orléans — taux d'asphyxie <br class="br-mob">et d'émancipation du bois</figcaption>
+      </fr>
+      <en>
+        <span class="im" tabindex="0" role="button"><img src="images/projets/01-inspire/b-mapping.jpg" alt="Mapping, Île d’Orléans — rates of asphyxiation and emancipation of the wood"></span>
+        <figcaption>Mapping, Île d’Orléans — rates of asphyxiation <br class="br-mob">and emancipation of the wood</figcaption>
+      </en>
+    </figure>
+  </section>
+</main>
+</template>
+
+
+
+
+
+<!-- ======================================================================================
+
+     PROJET 02 — LE CHAMP SPATIAL
+     (adresse : index.html#/champ-spatial)
+
+     ====================================================================================== -->
+
+<template data-page="champ-spatial" data-classe="">
+<main class="projet4 page-entree">
+
+
+  <!-- ——————  OUVERTURE : la grande image du haut, puis le titre et la fiche  —————— -->
+
+  <section class="p4-grille p4-ouverture">
+    <fr>
+      <figure class="leg-bas p4-hero"><span class="im" tabindex="0" role="button"><img src="images/projets/02-champ-spatial/a-vue-ext.jpg" alt="Vue extérieure, la cour"><img class="scotch hd bleu" src="images/site/ruban-bleu.png" alt="" draggable="false" style="--t:0deg"></span><figcaption>Vue extérieure, la cour</figcaption></figure>
+    </fr>
+    <en>
+      <figure class="leg-bas p4-hero"><span class="im" tabindex="0" role="button"><img src="images/projets/02-champ-spatial/a-vue-ext.jpg" alt="Exterior view, the courtyard"><img class="scotch hd bleu" src="images/site/ruban-bleu.png" alt="" draggable="false" style="--t:0deg"></span><figcaption>Exterior view, the courtyard</figcaption></figure>
+    </en>
+    <div class="p4-coin">
+      <div class="entete">
+        <fr>
+          <h1 class="projet-titre"><span class="numero main">02</span><span class="titre-cap">Le champ spatial</span><span class="annee-titre main">2024</span></h1>
+        </fr>
+        <en>
+          <h1 class="projet-titre"><span class="numero main">02</span><span class="titre-cap">The Spatial Field</span><span class="annee-titre main">2024</span></h1>
+        </en>
+        <dl class="fiche">
+          <fr>
+            <dt>Professeur</dt><dd>Louis St-Pierre</dd>
+            <dt>Collaboration pour l’analyse de site</dt><dd>Bianca Larouche</dd>
+          </fr>
+          <en>
+            <dt>Professor</dt><dd>Louis St-Pierre</dd>
+            <dt>Collaboration on the site analysis</dt><dd>Bianca Larouche</dd>
+          </en>
+        </dl>
+      </div>
+      <ol class="chapitres">
+        <fr>
+          <li><a href="#ch-1"><span class="biffe"><span class="i">1.</span>Analyse du site</span></a></li>
+          <li><a href="#ch-2"><span class="biffe"><span class="i">2.</span>Un potentiel dynamique</span></a></li>
+          <li><a href="#ch-3"><span class="biffe"><span class="i">3.</span>Une école du futur</span></a></li>
+        </fr>
+        <en>
+          <li><a href="#ch-1"><span class="biffe"><span class="i">1.</span>Site analysis</span></a></li>
+          <li><a href="#ch-2"><span class="biffe"><span class="i">2.</span>A dynamic potential</span></a></li>
+          <li><a href="#ch-3"><span class="biffe"><span class="i">3.</span>A school of the future</span></a></li>
+        </en>
+      </ol>
+    </div>
+  </section>
+
+
+  <!-- ——————  CHAPITRE 1  —————— -->
+
+  <section class="p4-grille p4-chapitre" id="ch-1">
+
+    <div class="p4-texte g" style="grid-row:1 / span 1">
+      <fr>
+        <h2 class="chapitre-nom">Analyse du site</h2>
+        <p>Cette analyse cartographique retrace l’évolution des contraintes environnementales et sociales ayant influencé les déplacements des Peuls entre 1950 et 2020 dans les régions de Waalo et de Jeeri au Sénégal. Dans les années 1950, les rythmes naturels, fondés sur des cycles climatiques relativement stables et lisibles, permettaient un nomadisme saisonnier prévisible, structuré par l’alternance des pluies, des crues et des périodes de&nbsp;sécheresse.</p>
+        <p>Progressivement, l’intensification des aléas climatiques, combinée aux interventions anthropiques telles que l’expansion agricole, l’urbanisation et les conflits d’usage des terres, a rendu ces cycles de plus en plus imprévisibles. Cette perte de repères temporels et spatiaux a profondément modifié les pratiques de déplacement, entraînant une sédentarisation partielle autour des forages et des pôles&nbsp;économiques.</p>
+        <p>Le territoire bascule ainsi d’un système fondé sur la prévisibilité des cycles naturels vers un paysage instable et incertain, appelant à des infrastructures capables de s’adapter à cette nouvelle condition&nbsp;d’imprévisibilité.</p>
+      </fr>
+      <en>
+        <h2 class="chapitre-nom">Site analysis</h2>
+        <p>This cartographic analysis traces the evolution of the environmental and social constraints that shaped the movements of the Fulani people between 1950 and 2020 in the Waalo and Jeeri regions of Senegal. In the 1950s, natural rhythms, based on relatively stable and legible climate cycles, allowed for a predictable seasonal nomadism, structured by the alternation of rains, floods and periods of&nbsp;drought.</p>
+        <p>Gradually, the intensification of climate hazards, combined with human interventions such as agricultural expansion, urbanization and land-use conflicts, made these cycles increasingly unpredictable. This loss of temporal and spatial landmarks profoundly changed patterns of movement, leading to a partial settling around boreholes and economic&nbsp;hubs.</p>
+        <p>The territory thus shifts from a system grounded in the predictability of natural cycles to an unstable and uncertain landscape, calling for infrastructure able to adapt to this new condition of&nbsp;unpredictability.</p>
+      </en>
+    </div>
+    <figure class="leg-bas leg-d p4-img plan bord-d" style="grid-column:7 / span 6;grid-row:1;max-width:calc(var(--hmax) * 1.778)">
+      <fr>
+        <span class="im" tabindex="0" role="button"><img src="images/projets/02-champ-spatial/a-mapping.jpg" alt="Mapping, comparaison 1950 / 2020, régions de Waalo et de Jeeri"></span>
+        <figcaption>Mapping, comparaison 1950 / 2020, régions de Waalo et de Jeeri</figcaption>
+      </fr>
+      <en>
+        <span class="im" tabindex="0" role="button"><img src="images/projets/02-champ-spatial/a-mapping.jpg" alt="Mapping, 1950 / 2020 comparison, Waalo and Jeeri regions"></span>
+        <figcaption>Mapping, 1950 / 2020 comparison, Waalo and Jeeri regions</figcaption>
+      </en>
+    </figure>
+
+    <figure class="p4-img plan" style="grid-column:1 / -1;grid-row:2;max-width:calc(var(--hmax) * 1.779)">
+      <span class="im" tabindex="0" role="button"><img src="images/projets/02-champ-spatial/a-saisons.jpg" alt="" loading="lazy"></span>
+    </figure>
+  </section>
+
+
+  <!-- ——————  CHAPITRE 2  —————— -->
+
+  <section class="p4-grille p4-chapitre serre" id="ch-2">
+
+    <div class="p4-texte d" style="grid-row:1 / span 1">
+      <fr>
+        <h2 class="chapitre-nom">Un potentiel dynamique</h2>
+        <p>Le concept architectural s’inspire du mode de vie peul et de l’évolution de la transhumance, autrefois fondée sur des cycles prévisibles et aujourd’hui bouleversée par des contraintes naturelles et anthropiques rendant les déplacements&nbsp;incertains.</p>
+        <p>Le projet propose une école du futur inscrite dans une trame spatiale dynamique, où des éléments fixes, ancrés dans la mémoire du territoire, coexistent avec des éléments mobiles soumis aux forces du vent, aux usages et aux mouvements des élèves. Un tissu architectural, tendu entre des poteaux, se déforme et se reconfigure en fonction des conditions du moment, générant des espaces temporaires, évolutifs et sensibles à leur&nbsp;environnement.</p>
+      </fr>
+      <en>
+        <h2 class="chapitre-nom">A dynamic potential</h2>
+        <p>The architectural concept draws on the Fulani way of life and the evolution of transhumance, once based on predictable cycles and now disrupted by natural and human constraints that make movement&nbsp;uncertain.</p>
+        <p>The project proposes a school of the future set within a dynamic spatial grid, where fixed elements, anchored in the memory of the territory, coexist with mobile elements subject to the forces of the wind, to uses and to the movements of the students. An architectural fabric, stretched between posts, deforms and reconfigures itself according to the conditions of the moment, generating temporary, evolving spaces that respond to their&nbsp;environment.</p>
+      </en>
+    </div>
+
+
+    <!-- ——————  PILE : des images posées l'une sous l'autre  —————— -->
+
+    <div class="p4-pile" style="grid-column:1 / span 6;grid-row:1 / span 2">
+
+      <figure class="p4-img plan schema bord-g" style="grid-column:1 / span 4;grid-row:1;max-width:calc(var(--hmax) * 1.768)">
+        <span class="im" tabindex="0" role="button"><img src="images/projets/02-champ-spatial/a-forces-vent.jpg" alt=""></span>
+      </figure>
+
+      <figure class="p4-img plan schema" style="grid-column:3 / span 4;grid-row:2;max-width:calc(var(--hmax) * 1.780)">
+        <span class="im" tabindex="0" role="button"><img src="images/projets/02-champ-spatial/a-forces-corps.jpg" alt=""></span>
+      </figure>
+
+      <figure class="p4-img plan moitie bord-g" style="grid-column:4 / span 3;grid-row:3;max-width:calc(var(--hmax) * 1.130)">
+        <span class="im" tabindex="0" role="button"><img src="images/projets/02-champ-spatial/a-trame-corps.jpg" alt=""></span>
+      </figure>
+    </div>
+
+    <figure class="p4-img plan bas" style="grid-column:8 / span 4;grid-row:2;max-width:calc(var(--hmax) * 1.858)">
+      <span class="im" tabindex="0" role="button"><img src="images/projets/02-champ-spatial/a-trame-poteaux.jpg" alt=""></span>
+    </figure>
+  </section>
+
+
+  <!-- ——————  CHAPITRE 3  —————— -->
+
+  <section class="p4-grille p4-chapitre" id="ch-3">
+
+    <div class="p4-texte g" style="grid-row:1 / span 1">
+      <fr>
+        <h2 class="chapitre-nom">Une école du futur</h2>
+        <p>Cette architecture vivante matérialise la transition d’un système stable vers un paysage imprévisible, exprimant la codépendance entre passé et présent, permanence et&nbsp;mutation.</p>
+        <p>Implanté à proximité du fleuve, à la lisière entre milieu naturel et anthropisé, le projet traduit spatialement cette condition&nbsp;d’entre-deux.</p>
+        <p>Les salles de classe deviennent ainsi des dispositifs adaptables, capables de se transformer selon les besoins pédagogiques, grâce à des cloisons textiles, des tableaux intégrés à la structure mobile et un mobilier facilement&nbsp;reconfigurable.</p>
+      </fr>
+      <en>
+        <h2 class="chapitre-nom">A school of the future</h2>
+        <p>This living architecture embodies the transition from a stable system to an unpredictable landscape, expressing the interdependence between past and present, permanence and&nbsp;change.</p>
+        <p>Set near the river, on the edge between natural and human-shaped environments, the project gives spatial form to this in-between&nbsp;condition.</p>
+        <p>The classrooms thus become adaptable devices, able to transform according to teaching needs, thanks to textile partitions, boards built into the mobile structure and easily reconfigurable&nbsp;furniture.</p>
+      </en>
+    </div>
+    <figure class="leg-d p4-img plan bord-g leg-bas-mob" style="grid-column:1 / span 8;grid-row:2;max-width:calc(var(--hmax) * 1.780)">
+      <fr>
+        <span class="im" tabindex="0" role="button"><img src="images/projets/02-champ-spatial/a-plan-l2.jpg" alt="Plan rez-de-chaussée"></span>
+        <figcaption>Plan rez-de-chaussée</figcaption>
+      </fr>
+      <en>
+        <span class="im" tabindex="0" role="button"><img src="images/projets/02-champ-spatial/a-plan-l2.jpg" alt="Ground floor plan"></span>
+        <figcaption>Ground floor plan</figcaption>
+      </en>
+    </figure>
+
+    <figure class="p4-img plan bord-d" style="grid-column:10 / span 3;grid-row:2;max-width:calc(var(--hmax) * 0.431)">
+      <fr>
+        <span class="im" tabindex="0" role="button"><img src="images/projets/02-champ-spatial/a-axo.jpg" alt="Axonométrie d'un pavillon de classes"></span>
+      </fr>
+      <en>
+        <span class="im" tabindex="0" role="button"><img src="images/projets/02-champ-spatial/a-axo.jpg" alt="Axonometric view of a classroom pavilion"></span>
+      </en>
+    </figure>
+
+    <figure class="p4-img plan petit" style="grid-column:8 / span 3;margin-top:1.5vw;grid-row:1;max-width:calc(var(--hmax) * 1.545)">
+      <fr>
+        <span class="im" tabindex="0" role="button"><img src="images/projets/02-champ-spatial/a-poteau.jpg" alt="Poteau type 1 — étapes d'assemblage"></span>
+      </fr>
+      <en>
+        <span class="im" tabindex="0" role="button"><img src="images/projets/02-champ-spatial/a-poteau.jpg" alt="Type 1 post — assembly steps"></span>
+      </en>
+    </figure>
+
+    <figure class="p4-img plan bord-g" style="grid-column:1 / span 7;grid-row:3;max-width:calc(var(--hmax) * 1.953)">
+      <fr>
+        <span class="im" tabindex="0" role="button"><img src="images/projets/02-champ-spatial/a-coupe-tech.jpg" alt="Coupe technique"></span>
+        <figcaption>Coupe technique</figcaption>
+      </fr>
+      <en>
+        <span class="im" tabindex="0" role="button"><img src="images/projets/02-champ-spatial/a-coupe-tech.jpg" alt="Technical section"></span>
+        <figcaption>Technical section</figcaption>
+      </en>
+    </figure>
+
+    <figure class="p4-img plan bas bord-d" style="grid-column:8 / span 5;grid-row:3;max-width:calc(var(--hmax) * 2.954)">
+      <fr>
+        <span class="im" tabindex="0" role="button"><img src="images/projets/02-champ-spatial/a-elevation.jpg" alt="Les trois entrées : marché, récréation, secrétariat"></span>
+        <figcaption>Les trois entrées : <br class="br-mob">marché, récréation, secrétariat</figcaption>
+      </fr>
+      <en>
+        <span class="im" tabindex="0" role="button"><img src="images/projets/02-champ-spatial/a-elevation.jpg" alt="The three entrances: market, playground, office"></span>
+        <figcaption>The three entrances: <br class="br-mob">market, playground, office</figcaption>
+      </en>
+    </figure>
+    <figure class="leg-bas leg-mi p4-img" style="grid-column:2 / span 6;grid-row:4;max-width:calc(var(--hmax) * 1.775)">
+      <fr>
+        <span class="im" tabindex="0" role="button"><img src="images/projets/02-champ-spatial/a-int-repas.jpg" alt="Vue intérieure, l'espace pour manger"><img class="scotch hg bleu" src="images/site/ruban-bleu.png" alt="" draggable="false" style="--t:6deg"><img class="scotch hd bleu" src="images/site/ruban-bleu.png" alt="" draggable="false" style="--t:-4deg"></span>
+        <figcaption>Vue intérieure, l'espace pour manger</figcaption>
+      </fr>
+      <en>
+        <span class="im" tabindex="0" role="button"><img src="images/projets/02-champ-spatial/a-int-repas.jpg" alt="Interior view, the eating area"><img class="scotch hg bleu" src="images/site/ruban-bleu.png" alt="" draggable="false" style="--t:6deg"><img class="scotch hd bleu" src="images/site/ruban-bleu.png" alt="" draggable="false" style="--t:-4deg"></span>
+        <figcaption>Interior view, the eating area</figcaption>
+      </en>
+    </figure>
+
+    <figure class="p4-img chev bord-d leg-bas-mob" style="grid-column:8 / span 5;grid-row:4;max-width:calc(var(--hmax) * 1.782)">
+      <fr>
+        <span class="im" tabindex="0" role="button"><img src="images/projets/02-champ-spatial/a-int-gradins.jpg" alt="Vue extérieure, la bibliothèque"><img class="scotch hd bleu" src="images/site/ruban-bleu.png" alt="" draggable="false" style="--t:-2deg"></span>
+        <figcaption>Vue extérieure, la bibliothèque</figcaption>
+      </fr>
+      <en>
+        <span class="im" tabindex="0" role="button"><img src="images/projets/02-champ-spatial/a-int-gradins.jpg" alt="Exterior view, the library"><img class="scotch hd bleu" src="images/site/ruban-bleu.png" alt="" draggable="false" style="--t:-2deg"></span>
+        <figcaption>Exterior view, the library</figcaption>
+      </en>
+    </figure>
+  </section>
+</main>
+</template>
+
+
+
+
+
+<!-- ======================================================================================
+
+     PROJET 03 — L’EFFET PAPILLON
+     (adresse : index.html#/effet-papillon)
+
+     ====================================================================================== -->
+
+<template data-page="effet-papillon" data-classe="">
+<main class="projet4 page-entree">
+
+
+  <!-- ——————  OUVERTURE : la grande image du haut, puis le titre et la fiche  —————— -->
+
+  <section class="p4-grille p4-ouverture">
+    <figure class="p4-hero plan"><span class="im" tabindex="0" role="button"><img src="images/projets/03-effet-papillon/f-elevation.jpg" alt=""></span></figure>
+    <div class="p4-coin">
+      <div class="entete">
+        <fr>
+          <h1 class="projet-titre"><span class="numero main">03</span><span class="titre-cap">L’effet papillon</span><span class="annee-titre main">2024</span></h1>
+        </fr>
+        <en>
+          <h1 class="projet-titre"><span class="numero main">03</span><span class="titre-cap">The Butterfly Effect</span><span class="annee-titre main">2024</span></h1>
+        </en>
+        <dl class="fiche">
+          <fr>
+            <dt>Professeur</dt><dd>Samuel Bernier-Lavigne</dd>
+            <dt>Collaboration</dt><dd>Simone Leblanc, Sara Lacasse et Eve Demers</dd>
+          </fr>
+          <en>
+            <dt>Professor</dt><dd>Samuel Bernier-Lavigne</dd>
+            <dt>Collaboration</dt><dd>Simone Leblanc, Sara Lacasse and Eve Demers</dd>
+          </en>
+        </dl>
+      </div>
+      <ol class="chapitres">
+        <fr>
+          <li><a href="#ch-1"><span class="biffe"><span class="i">1.</span>La cour PS1</span></a></li>
+          <li><a href="#ch-2"><span class="biffe"><span class="i">2.</span>La fractale</span></a></li>
+        </fr>
+        <en>
+          <li><a href="#ch-1"><span class="biffe"><span class="i">1.</span>The PS1 courtyard</span></a></li>
+          <li><a href="#ch-2"><span class="biffe"><span class="i">2.</span>The fractal</span></a></li>
+        </en>
+      </ol>
+    </div>
+  </section>
+
+
+  <!-- ——————  CHAPITRE 1  —————— -->
+
+  <section class="p4-grille p4-chapitre" id="ch-1">
+
+    <div class="p4-texte g" style="grid-row:1 / span 1">
+      <fr>
+        <h2 class="chapitre-nom">La cour PS1</h2>
+        <p>Le projet propose une installation architecturale pour la cour PS1 du MoMA, inspirée de la théorie du chaos et de l’effet papillon. L’installation cherche à rendre visible l’impact des actions individuelles sur une collectivité : le mouvement d’un occupant déclenche le gonflement d’une bulle, dont l’effet se propage à travers la structure et agit sur un espace&nbsp;opposé.</p>
+      </fr>
+      <en>
+        <h2 class="chapitre-nom">The PS1 courtyard</h2>
+        <p>The project proposes an architectural installation for the MoMA PS1 courtyard, inspired by chaos theory and the butterfly effect. The installation seeks to make visible the impact of individual actions on a community: the movement of one occupant triggers the inflation of a bubble, whose effect spreads through the structure and acts on an opposite&nbsp;space.</p>
+      </en>
+    </div>
+
+    <figure class="p4-img plan" style="grid-column:6 / span 5;grid-row:1;max-width:calc(var(--hmax) * 1.142)">
+      <span class="im" tabindex="0" role="button"><img src="images/projets/03-effet-papillon/f-plan-bulles.jpg" alt=""></span>
+    </figure>
+
+    <figure class="p4-img plan bord-g" style="grid-column:1 / span 5;grid-row:2;max-width:calc(var(--hmax) * 1.179)">
+      <span class="im" tabindex="0" role="button"><img src="images/projets/03-effet-papillon/f-scenario.jpg" alt=""></span>
+    </figure>
+
+    <figure class="p4-img plan bas bord-d" style="grid-column:7 / span 6;grid-row:2;max-width:calc(var(--hmax) * 1.271)">
+      <span class="im" tabindex="0" role="button"><img src="images/projets/03-effet-papillon/f-espaces.jpg" alt=""></span>
+    </figure>
+  </section>
+
+
+  <!-- ——————  CHAPITRE 2  —————— -->
+
+  <section class="p4-grille p4-chapitre" id="ch-2">
+
+    <div class="p4-texte d" style="grid-row:1 / span 1">
+      <fr>
+        <h2 class="chapitre-nom">La fractale</h2>
+        <p>La forme s’appuie sur le principe de la fractale, avec des composants biomorphiques qui se subdivisent et reproduisent le même motif à différentes&nbsp;échelles.</p>
+        <p>Constituée d’une double membrane plastique, d’un textile en nylon et d’un système pneumatique contrôlé par des capteurs, l’installation fonctionne comme un organisme vivant et interactif, transformant l’espace en catalyseur de relations&nbsp;humaines.</p>
+      </fr>
+      <en>
+        <h2 class="chapitre-nom">The fractal</h2>
+        <p>The form is based on the principle of the fractal, with biomorphic components that subdivide and repeat the same pattern at different&nbsp;scales.</p>
+        <p>Made of a double plastic membrane, a nylon textile and a pneumatic system controlled by sensors, the installation works like a living, interactive organism, turning space into a catalyst for human&nbsp;relationships.</p>
+      </en>
+    </div>
+
+    <figure class="p4-img plan bord-g" style="grid-column:1 / span 6;grid-row:1;max-width:calc(var(--hmax) * 1.360)">
+      <span class="im" tabindex="0" role="button"><img src="images/projets/03-effet-papillon/f-subdivision.jpg" alt=""></span>
+    </figure>
+
+    <figure class="p4-img bord-g" style="grid-column:1 / span 6;grid-row:2;max-width:calc(var(--hmax) * 1.370)">
+      <span class="im" tabindex="0" role="button"><img src="images/projets/03-effet-papillon/f-motif.jpg" alt=""><img class="scotch bd bleu" src="images/site/ruban-bleu.png" alt="" draggable="false" style="--t:-1deg"></span>
+    </figure>
+
+    <figure class="p4-img bas bord-d" style="grid-column:8 / span 5;grid-row:2;max-width:calc(var(--hmax) * 1.364)">
+      <span class="im" tabindex="0" role="button"><img src="images/projets/03-effet-papillon/f-maquette.jpg" alt=""><img class="scotch hg bleu" src="images/site/ruban-bleu.png" alt="" draggable="false" style="--t:-2deg"><img class="scotch hd bleu" src="images/site/ruban-bleu.png" alt="" draggable="false" style="--t:6deg"></span>
+    </figure>
+
+    <figure class="p4-img" style="grid-column:3 / span 4;grid-row:3;max-width:calc(var(--hmax) * 0.919)">
+      <span class="im" tabindex="0" role="button"><img src="images/projets/03-effet-papillon/f-texture.jpg" alt=""><img class="scotch bd bleu" src="images/site/ruban-bleu.png" alt="" draggable="false" style="--t:1deg"></span>
+    </figure>
+
+    <figure class="p4-img chev" style="grid-column:7 / span 3;grid-row:3;max-width:calc(var(--hmax) * 0.750)">
+      <span class="im" tabindex="0" role="button"><img src="images/projets/03-effet-papillon/f-bulle.jpg" alt=""></span>
+    </figure>
+
+    <figure class="p4-img bas bord-d" style="grid-column:10 / span 3;grid-row:3;max-width:calc(var(--hmax) * 1.365)">
+      <span class="im" tabindex="0" role="button"><img src="images/projets/03-effet-papillon/f-membrane.jpg" alt=""><img class="scotch hg bleu" src="images/site/ruban-bleu.png" alt="" draggable="false" style="--t:-7deg"><img class="scotch bd bleu" src="images/site/ruban-bleu.png" alt="" draggable="false" style="--t:-2deg"></span>
+    </figure>
+  </section>
+</main>
+</template>
+
+
+
+
+
+<!-- ======================================================================================
+
+     PROJET 04 — L’ART DU QUOTIDIEN
+     (adresse : index.html#/art-du-quotidien)
+
+     ====================================================================================== -->
+
+<template data-page="art-du-quotidien" data-classe="">
+<main class="projet4 page-entree">
+
+
+  <!-- ——————  OUVERTURE : la grande image du haut, puis le titre et la fiche  —————— -->
+
+  <section class="p4-grille p4-ouverture">
+    <fr>
+      <figure class="leg-bas p4-hero plan"><span class="im" tabindex="0" role="button"><img src="images/projets/04-art-du-quotidien/s-coupe-persp.jpg" alt="Coupe perspective de l’école"></span><figcaption>Coupe perspective de l’école</figcaption></figure>
+    </fr>
+    <en>
+      <figure class="leg-bas p4-hero plan"><span class="im" tabindex="0" role="button"><img src="images/projets/04-art-du-quotidien/s-coupe-persp.jpg" alt="Perspective section of the school"></span><figcaption>Perspective section of the school</figcaption></figure>
+    </en>
+    <div class="p4-coin">
+      <div class="entete">
+        <fr>
+          <h1 class="projet-titre"><span class="numero main">04</span><span class="titre-cap">L’Art du quotidien</span> <span class="nowrap">(INSA Strasbourg)<span class="annee-titre main">2025</span></span></h1>
+        </fr>
+        <en>
+          <h1 class="projet-titre"><span class="numero main">04</span><span class="titre-cap">The Art of the Everyday</span> <span class="nowrap">(INSA Strasbourg)<span class="annee-titre main">2025</span></span></h1>
+        </en>
+        <dl class="fiche">
+          <fr>
+            <dt>Professeur</dt><dd>Charles-Étienne Dubois</dd>
+          </fr>
+          <en>
+            <dt>Professor</dt><dd>Charles-Étienne Dubois</dd>
+          </en>
+        </dl>
+      </div>
+    </div>
+  </section>
+
+
+  <!-- ——————  CHAPITRE 1  —————— -->
+
+  <section class="p4-grille p4-chapitre">
+
+    <div class="p4-texte g" style="grid-row:1 / span 1">
+      <fr>
+        <p>Ce projet d’atelier prend place sur le site d’une ancienne gare située à Charleville, dans le nord de la France, aujourd’hui reconvertie en un vaste pôle attractif à vocation culturelle, sociale et touristique. Inscrit dans un territoire de grande échelle, le projet s’appuie sur les infrastructures existantes, notamment la ligne verte, pour renforcer les mobilités douces en retravaillant la piste cyclable et en intégrant l’usage du vélo cargo à l’échelle du site. L’intervention vise à recréer un nouveau cœur de vie, capable de reconnecter le lieu à son contexte tout en lui donnant une identité&nbsp;forte.</p>
+      </fr>
+      <en>
+        <p>This studio project takes place on the site of a former train station in Charleville, in northern France, now converted into a vast hub with cultural, social and tourist purposes. Set within a large-scale territory, the project builds on existing infrastructure, notably the green line, to strengthen soft mobility by reworking the bike path and introducing cargo bikes across the site. The intervention aims to create a new heart of community life, able to reconnect the place to its context while giving it a strong&nbsp;identity.</p>
+      </en>
+    </div>
+
+    <figure class="p4-img plan bord-d" style="grid-column:6 / span 7;grid-row:1;max-width:calc(var(--hmax) * 1.439)">
+      <fr>
+        <span class="im" tabindex="0" role="button"><img src="images/projets/04-art-du-quotidien/s-plan-site.jpg" alt="Plan rez-de-chaussée" loading="lazy"></span>
+        <figcaption>Plan rez-de-chaussée</figcaption>
+      </fr>
+      <en>
+        <span class="im" tabindex="0" role="button"><img src="images/projets/04-art-du-quotidien/s-plan-site.jpg" alt="Ground floor plan" loading="lazy"></span>
+        <figcaption>Ground floor plan</figcaption>
+      </en>
+    </figure>
+
+    <figure class="p4-img plan" style="grid-column:1 / span 12;grid-row:2;max-width:calc(var(--hmax) * 4.242)">
+      <fr>
+        <span class="im" tabindex="0" role="button"><img src="images/projets/04-art-du-quotidien/s-coupe-paysage.jpg" alt="Coupe paysagère" loading="lazy"></span>
+        <figcaption>Coupe paysagère</figcaption>
+      </fr>
+      <en>
+        <span class="im" tabindex="0" role="button"><img src="images/projets/04-art-du-quotidien/s-coupe-paysage.jpg" alt="Landscape section" loading="lazy"></span>
+        <figcaption>Landscape section</figcaption>
+      </en>
+    </figure>
+  </section>
+
+
+  <!-- ——————  CHAPITRE 2  —————— -->
+
+  <section class="p4-grille p4-chapitre">
+
+    <div class="p4-texte d" style="grid-row:1 / span 2">
+      <fr>
+        <p>Le concept s’articule autour du thème de l’art du quotidien, cherchant à révéler la beauté des gestes ordinaires et des moments simples, à l’image du repas partagé autour d’une table, symbole universel de rassemblement, de convivialité et de&nbsp;transmission.</p>
+        <p>Le programme mêle une école culinaire, des espaces de résidence pour étudiants et chefs, des jardins partagés installés dans des friches existantes, ainsi qu’un marché et des espaces de restauration. La production alimentaire devient un acte pédagogique et collectif grâce à l’agriculture verticale, aux zones de cueillette accessibles au public et à une serre de production locale alimentant directement le marché. L’ensemble compose un village modeste mais vivant, où apprendre, produire, célébrer et manger deviennent des expériences liées, ancrées dans le territoire et accessibles à&nbsp;tous.</p>
+      </fr>
+      <en>
+        <p>The concept revolves around the theme of the art of the everyday, seeking to reveal the beauty of ordinary gestures and simple moments, like a meal shared around a table, a universal symbol of gathering, conviviality and&nbsp;transmission.</p>
+        <p>The programme combines a culinary school, residences for students and chefs, community gardens set in existing wastelands, as well as a market and places to eat. Food production becomes an educational and collective act through vertical farming, picking areas open to the public and a local greenhouse that supplies the market directly. Together, they form a modest but lively village, where learning, producing, celebrating and eating become connected experiences, rooted in the territory and accessible to&nbsp;all.</p>
+      </en>
+    </div>
+
+    <figure class="p4-img plan bord-g" style="grid-column:1 / span 6;grid-row:1 / span 2;max-width:calc(var(--hmax) * 0.777)">
+      <fr>
+        <span class="im" tabindex="0" role="button"><img src="images/projets/04-art-du-quotidien/s-rotonde.jpg" alt="Plan de la rotonde, 2e étage" loading="lazy"></span>
+        <figcaption>Plan de la rotonde, 2e étage</figcaption>
+      </fr>
+      <en>
+        <span class="im" tabindex="0" role="button"><img src="images/projets/04-art-du-quotidien/s-rotonde.jpg" alt="Roundhouse plan, 2nd floor" loading="lazy"></span>
+        <figcaption>Roundhouse plan, 2nd floor</figcaption>
+      </en>
+    </figure>
+
+
+    <!-- ——————  GALERIE : une grande image, les petites en dessous (une ligne <button> par image)  —————— -->
+
+    <div class="galerie-p" data-nom="g-plans" style="grid-column:1 / -1;grid-row:3">
+      <fr>
+        <figure class="gp-scene plan"><span class="im" tabindex="0" role="button"><span class="gp-cadre"><span class="gp-leg">Plan rez-de-chaussée de l’école</span><img class="gp-grande" src="images/projets/04-art-du-quotidien/s-plan-ecole-rdc.jpg" alt="Plan rez-de-chaussée de l’école" loading="lazy" draggable="false"></span></span></figure>
+      </fr>
+      <en>
+        <figure class="gp-scene plan"><span class="im" tabindex="0" role="button"><span class="gp-cadre"><span class="gp-leg">School ground floor plan</span><img class="gp-grande" src="images/projets/04-art-du-quotidien/s-plan-ecole-rdc.jpg" alt="School ground floor plan" loading="lazy" draggable="false"></span></span></figure>
+      </en>
+      <div class="gp-bas">
+        <span class="gp-compte">01 / 06</span>
+        <fr>
+          <span class="gp-fleches"><button type="button" class="gp-prec" aria-label="Précédent"></button><button type="button" class="gp-suiv" aria-label="Suivant"></button></span>
+        </fr>
+        <en>
+          <span class="gp-fleches"><button type="button" class="gp-prec" aria-label="Previous"></button><button type="button" class="gp-suiv" aria-label="Next"></button></span>
+        </en>
+      </div>
+      <div class="gp-vignettes">
+        <fr>
+          <button type="button" class="gp-v on plan" data-src="images/projets/04-art-du-quotidien/s-plan-ecole-rdc.jpg" data-r="0.764" data-leg="Plan rez-de-chaussée de l’école" style="--r:0.764" aria-label="Plan rez-de-chaussée de l’école"><img src="images/projets/04-art-du-quotidien/vignettes/s-plan-ecole-rdc.jpg" alt="" loading="lazy" draggable="false"></button>
+          <button type="button" class="gp-v plan" data-src="images/projets/04-art-du-quotidien/s-plan-ecole-1.jpg" data-r="0.629" data-leg="Plan du 1er étage de l’école" style="--r:0.629" aria-label="Plan du 1er étage de l’école"><img src="images/projets/04-art-du-quotidien/vignettes/s-plan-ecole-1.jpg" alt="" loading="lazy" draggable="false"></button>
+          <button type="button" class="gp-v plan" data-src="images/projets/04-art-du-quotidien/s-maisons.jpg" data-r="1.153" data-leg="Plan, zoom sur les maisons" style="--r:1.153" aria-label="Plan, zoom sur les maisons"><img src="images/projets/04-art-du-quotidien/vignettes/s-maisons.jpg" alt="" loading="lazy" draggable="false"></button>
+          <button type="button" class="gp-v plan" data-src="images/projets/04-art-du-quotidien/s-resto.jpg" data-r="0.709" data-leg="Plan, zoom sur le restaurant" style="--r:0.709" aria-label="Plan, zoom sur le restaurant"><img src="images/projets/04-art-du-quotidien/vignettes/s-resto.jpg" alt="" loading="lazy" draggable="false"></button>
+          <button type="button" class="gp-v plan" data-src="images/projets/04-art-du-quotidien/s-production.jpg" data-r="0.776" data-leg="Plan, zone de production" style="--r:0.776" aria-label="Plan, zone de production"><img src="images/projets/04-art-du-quotidien/vignettes/s-production.jpg" alt="" loading="lazy" draggable="false"></button>
+          <button type="button" class="gp-v plan" data-src="images/projets/04-art-du-quotidien/s-coupe-atelier.jpg" data-r="1.413" data-leg="Coupe de l’atelier" style="--r:1.413" aria-label="Coupe de l’atelier"><img src="images/projets/04-art-du-quotidien/vignettes/s-coupe-atelier.jpg" alt="" loading="lazy" draggable="false"></button>
+        </fr>
+        <en>
+          <button type="button" class="gp-v on plan" data-src="images/projets/04-art-du-quotidien/s-plan-ecole-rdc.jpg" data-r="0.764" data-leg="School ground floor plan" style="--r:0.764" aria-label="School ground floor plan"><img src="images/projets/04-art-du-quotidien/vignettes/s-plan-ecole-rdc.jpg" alt="" loading="lazy" draggable="false"></button>
+          <button type="button" class="gp-v plan" data-src="images/projets/04-art-du-quotidien/s-plan-ecole-1.jpg" data-r="0.629" data-leg="School 1st floor plan" style="--r:0.629" aria-label="School 1st floor plan"><img src="images/projets/04-art-du-quotidien/vignettes/s-plan-ecole-1.jpg" alt="" loading="lazy" draggable="false"></button>
+          <button type="button" class="gp-v plan" data-src="images/projets/04-art-du-quotidien/s-maisons.jpg" data-r="1.153" data-leg="Plan, close-up of the houses" style="--r:1.153" aria-label="Plan, close-up of the houses"><img src="images/projets/04-art-du-quotidien/vignettes/s-maisons.jpg" alt="" loading="lazy" draggable="false"></button>
+          <button type="button" class="gp-v plan" data-src="images/projets/04-art-du-quotidien/s-resto.jpg" data-r="0.709" data-leg="Plan, close-up of the restaurant" style="--r:0.709" aria-label="Plan, close-up of the restaurant"><img src="images/projets/04-art-du-quotidien/vignettes/s-resto.jpg" alt="" loading="lazy" draggable="false"></button>
+          <button type="button" class="gp-v plan" data-src="images/projets/04-art-du-quotidien/s-production.jpg" data-r="0.776" data-leg="Plan, production area" style="--r:0.776" aria-label="Plan, production area"><img src="images/projets/04-art-du-quotidien/vignettes/s-production.jpg" alt="" loading="lazy" draggable="false"></button>
+          <button type="button" class="gp-v plan" data-src="images/projets/04-art-du-quotidien/s-coupe-atelier.jpg" data-r="1.413" data-leg="Section of the workshop" style="--r:1.413" aria-label="Section of the workshop"><img src="images/projets/04-art-du-quotidien/vignettes/s-coupe-atelier.jpg" alt="" loading="lazy" draggable="false"></button>
+        </en>
+      </div>
+    </div>
+  </section>
+</main>
+</template>
+
+
+
+
+
+<!-- ======================================================================================
+
+     PROJET 05 — CONCEPTION D’UN MUSÉE SPÉCULATIF DANS LE DÉSERT DE NAMIB
+     (adresse : index.html#/musee-namib)
+
+     ====================================================================================== -->
+
+<template data-page="musee-namib" data-classe="">
+<main class="projet4 page-entree">
+
+
+  <!-- ——————  OUVERTURE : la grande image du haut, puis le titre et la fiche  —————— -->
+
+  <section class="p4-grille p4-ouverture">
+    <figure class="p4-hero hero-namib"><span class="im" tabindex="0" role="button"><img src="images/projets/05-musee-namib/n-namib.jpg" alt=""><img class="scotch hd bleu" src="images/site/ruban-bleu.png" alt="" draggable="false" style="--t:-6deg"><img class="scotch bd bleu" src="images/site/ruban-bleu.png" alt="" draggable="false" style="--t:-7deg"></span></figure>
+    <div class="p4-coin">
+      <div class="entete">
+        <fr>
+          <h1 class="projet-titre long deux-lignes"><span class="numero main">05</span><span class="titre-cap"><span class="ligne">Conception d’un musée spéculatif dans</span></span><span class="ligne"><span class="titre-cap">le désert de Namib</span><span class="annee-titre main">2025</span></span></h1>
+        </fr>
+        <en>
+          <h1 class="projet-titre long deux-lignes"><span class="numero main">05</span><span class="titre-cap"><span class="ligne">Designing a Speculative Museum</span></span><span class="ligne"><span class="titre-cap">in the Namib Desert</span><span class="annee-titre main">2025</span></span></h1>
+        </en>
+        <dl class="fiche">
+          <fr>
+            <dt>Professeur</dt><dd>Samuel Bernier-Lavigne</dd>
+            <dt>Collaboration</dt><dd>Raphaelle Brouw et Simone Leblanc</dd>
+          </fr>
+          <en>
+            <dt>Professor</dt><dd>Samuel Bernier-Lavigne</dd>
+            <dt>Collaboration</dt><dd>Raphaelle Brouw and Simone Leblanc</dd>
+          </en>
+        </dl>
+      </div>
+    </div>
+  </section>
+
+
+  <!-- ——————  CHAPITRE 1  —————— -->
+
+  <section class="p4-grille p4-chapitre">
+
+    <div class="p4-texte g" style="grid-row:1 / span 2">
+      <fr>
+        <p>Ce projet propose une fiction architecturale prenant la forme d’un pèlerinage de retraite spirituelle dans le désert du Namib, au sud-ouest de l’Afrique. Le parcours débute dans la ville principale, d’où les participants rejoignent le site en bateau avant d’entamer une traversée pédestre menant à un musée habité, pensé comme une expérience vécue sur sept&nbsp;jours.</p>
+        <p>Chaque jour correspond à un espace muséal distinct, conçu pour dormir, manger et vivre au cœur de l’architecture. Dès le pavillon d’accueil, l’occupant reçoit un équipement combinant protection, sac de survie et montre de localisation, l’accompagnant tout au long du parcours. La marche quotidienne de trois à cinq kilomètres devient un rituel, reliant les espaces et intensifiant la relation au corps, au temps et au paysage. À chaque halte, un objet exposé, essentiel à la survie dans le désert, est intégré à l’architecture, rendant l’occupant progressivement dépendant du lieu et de l’objet, jusqu’à former une relation hybride entre corps, artefact et&nbsp;espace.</p>
+      </fr>
+      <en>
+        <p>This project proposes an architectural fiction in the form of a spiritual retreat pilgrimage in the Namib Desert, in southwestern Africa. The journey begins in the main city, from where participants reach the site by boat before setting out on a crossing on foot that leads to an inhabited museum, conceived as an experience lived over seven&nbsp;days.</p>
+        <p>Each day corresponds to a distinct museum space, designed for sleeping, eating and living at the heart of the architecture. From the welcome pavilion, the occupant receives equipment combining protection, a survival bag and a tracking watch, which accompanies them throughout the journey. The daily walk of three to five kilometres becomes a ritual, linking the spaces and intensifying the relationship with the body, time and landscape. At each stop, an exhibited object, essential to survival in the desert, is built into the architecture, making the occupant gradually dependent on the place and the object, until a hybrid relationship forms between body, artefact and&nbsp;space.</p>
+      </en>
+    </div>
+
+    <figure class="p4-img plan" style="grid-column:7 / span 6;grid-row:1 / span 2;max-width:calc(var(--hmax) * 0.696);justify-self:center">
+      <span class="im" tabindex="0" role="button"><img src="images/projets/05-musee-namib/n-narration.jpg" alt="" loading="lazy"></span>
+    </figure>
+
+    <figure class="p4-img plan bord-g" style="grid-column:1 / span 9;grid-row:3;max-width:calc(var(--hmax) * 1.791)">
+      <fr>
+        <span class="im" tabindex="0" role="button"><img src="images/projets/05-musee-namib/n-partition.jpg" alt="Partition narrative" loading="lazy"></span>
+      </fr>
+      <en>
+        <span class="im" tabindex="0" role="button"><img src="images/projets/05-musee-namib/n-partition.jpg" alt="Narrative score" loading="lazy"></span>
+      </en>
+    </figure>
+
+    <figure class="p4-img plan bord-g" style="grid-column:1 / span 6;grid-row:4;max-width:calc(var(--hmax) * 1.998)">
+      <span class="im" tabindex="0" role="button"><img src="images/projets/05-musee-namib/n-site-axo.jpg" alt="" loading="lazy"></span>
+    </figure>
+
+    <figure class="p4-img plan bas" style="grid-column:8 / span 4;grid-row:4;max-width:calc(var(--hmax) * 0.998)">
+      <span class="im" tabindex="0" role="button"><img src="images/projets/05-musee-namib/n-schema.jpg" alt="" loading="lazy"></span>
+    </figure>
+
+    <figure class="p4-img plan" style="grid-column:2 / span 8;grid-row:5;max-width:calc(var(--hmax) * 1.777)">
+      <span class="im" tabindex="0" role="button"><img src="images/projets/05-musee-namib/n-albedome.jpg" alt="" loading="lazy"></span>
+    </figure>
+
+    <figure class="p4-img bord-g" style="grid-column:1 / span 6;grid-row:6;max-width:calc(var(--hmax) * 1.777)">
+      <span class="im" tabindex="0" role="button"><img src="images/projets/05-musee-namib/n-chunk.jpg" alt="" loading="lazy"></span>
+    </figure>
+
+    <figure class="p4-img plan bas bord-d" style="grid-column:7 / span 6;grid-row:6;max-width:calc(var(--hmax) * 1.834)">
+      <span class="im" tabindex="0" role="button"><img src="images/projets/05-musee-namib/n-voxel.jpg" alt="" loading="lazy"></span>
+    </figure>
+  </section>
+
+
+  <!-- ——————  CHAPITRE 2  —————— -->
+
+  <section class="p4-grille p4-chapitre">
+
+    <div class="p4-texte d" style="grid-row:1 / span 1">
+      <fr>
+        <p>Le projet est développé par une modélisation paramétrique, où la tectonique repose sur le sable compacté, façonné par des motifs générés à l’aide du logiciel Houdini. Un système robotisé prélève le sable directement sur site pour produire des blocs compactés et ériger les murs par compression, inscrivant l’architecture dans un cycle de construction autonome, contextuel et éphémère, en dialogue direct avec le&nbsp;désert.</p>
+      </fr>
+      <en>
+        <p>The project is developed through parametric modelling, with a tectonic based on compacted sand, shaped by patterns generated with the Houdini software. A robotic system collects sand directly on site to produce compacted blocks and raise the walls by compression, placing the architecture within an autonomous, contextual and ephemeral construction cycle, in direct dialogue with the&nbsp;desert.</p>
+      </en>
+    </div>
+
+    <figure class="p4-img bord-g" style="grid-column:1 / span 4;grid-row:1;max-width:calc(var(--hmax) * 0.992)">
+      <span class="im" tabindex="0" role="button"><img src="images/projets/05-musee-namib/n-bloc.jpg" alt="" loading="lazy"><img class="scotch h bleu" src="images/site/ruban-bleu.png" alt="" draggable="false" style="--t:3deg"></span>
+    </figure>
+
+    <figure class="p4-img bas" style="grid-column:5 / span 3;grid-row:1;max-width:calc(var(--hmax) * 0.993)">
+      <span class="im" tabindex="0" role="button"><img src="images/projets/05-musee-namib/n-texture-2.jpg" alt="" loading="lazy"></span>
+    </figure>
+
+    <figure class="p4-img plan bord-g" style="grid-column:1 / span 7;grid-row:2;max-width:calc(var(--hmax) * 4.485)">
+      <span class="im" tabindex="0" role="button"><img src="images/projets/05-musee-namib/n-modules.jpg" alt="" loading="lazy"></span>
+    </figure>
+
+    <figure class="p4-img bord-g" style="grid-column:1 / span 6;grid-row:3;max-width:calc(var(--hmax) * 1.500)">
+      <span class="im" tabindex="0" role="button"><img src="images/projets/05-musee-namib/n-maquette.jpg" alt="" loading="lazy"></span>
+    </figure>
+
+    <figure class="p4-img bas bord-d" style="grid-column:7 / span 6;grid-row:3;max-width:calc(var(--hmax) * 1.500)">
+      <span class="im" tabindex="0" role="button"><img src="images/projets/05-musee-namib/n-mirabilia.jpg" alt="" loading="lazy"><img class="scotch h bleu" src="images/site/ruban-bleu.png" alt="" draggable="false" style="--t:-6deg"><img class="scotch bd bleu" src="images/site/ruban-bleu.png" alt="" draggable="false" style="--t:1deg"></span>
+    </figure>
+
+    <figure class="p4-img bord-g" style="grid-column:1 / span 3;grid-row:4;max-width:calc(var(--hmax) * 0.679)">
+      <fr>
+        <span class="im" tabindex="0" role="button"><img src="images/projets/05-musee-namib/n-robot-3.jpg" alt="Impression robotique, 1:1" loading="lazy"><span class="credit-photo fonce">© Cedric Harvey</span></span>
+        <figcaption>Impression robotique, 1:1</figcaption>
+      </fr>
+      <en>
+        <span class="im" tabindex="0" role="button"><img src="images/projets/05-musee-namib/n-robot-3.jpg" alt="Robotic printing, 1:1" loading="lazy"><span class="credit-photo fonce">© Cedric Harvey</span></span>
+        <figcaption>Robotic printing, 1:1</figcaption>
+      </en>
+    </figure>
+
+    <figure class="p4-img bas" style="grid-column:4 / span 5;grid-row:4;max-width:calc(var(--hmax) * 1.496)">
+      <span class="im" tabindex="0" role="button"><img src="images/projets/05-musee-namib/n-robot-1.jpg" alt="" loading="lazy"><span class="credit-photo">© Cedric Harvey</span></span>
+    </figure>
+
+    <figure class="p4-img bord-d" style="grid-column:10 / span 3;grid-row:4;max-width:calc(var(--hmax) * 1.060)">
+      <span class="im" tabindex="0" role="button"><img src="images/projets/05-musee-namib/n-texture-1.jpg" alt="" loading="lazy"></span>
+    </figure>
+
+    <figure class="p4-img plan bord-g" style="grid-column:1 / span 7;grid-row:5;max-width:calc(var(--hmax) * 1.603)">
+      <span class="im" tabindex="0" role="button"><img src="images/projets/05-musee-namib/n-fabrice.jpg" alt="" loading="lazy"></span>
+    </figure>
+
+    <figure class="p4-img bas bord-d" style="grid-column:8 / span 5;grid-row:5;max-width:calc(var(--hmax) * 1.782)">
+      <span class="im" tabindex="0" role="button"><img src="images/projets/05-musee-namib/n-robot-2.jpg" alt="" loading="lazy"><img class="scotch hd bleu" src="images/site/ruban-bleu.png" alt="" draggable="false" style="--t:2deg"></span>
+    </figure>
+
+    <figure class="p4-img pleine" style="grid-column:1 / -1;grid-row:6;justify-self:center;max-width:calc(var(--hmax) * 1.777 * 1.2)">
+      <span class="im" tabindex="0" role="button"><img src="images/projets/05-musee-namib/n-rendu.jpg" alt="" loading="lazy"><img class="scotch hg bleu" src="images/site/ruban-bleu.png" alt="" draggable="false" style="--t:-3deg"></span>
+    </figure>
+  </section>
+</main>
+</template>
+
+
+
+
+
+<!-- ======================================================================================
+
+     PROJET 06 — 16 ARCHITECTURES MANIFESTES
+     (adresse : index.html#/16-architectures-manifestes)
+
+     ====================================================================================== -->
+
+<template data-page="16-architectures-manifestes" data-classe="">
+<main class="projet4 page-entree">
+
+
+  <!-- ——————  OUVERTURE : la grande image du haut, puis le titre et la fiche  —————— -->
+
+  <section class="p4-grille p4-ouverture">
+    <figure class="p4-hero hero-bas"><span class="im" tabindex="0" role="button"><img src="images/projets/06-16-architectures-manifestes/m-expo-1.jpg" alt=""><img class="scotch h bleu" src="images/site/ruban-bleu.png" alt="" draggable="false" style="--t:1deg"><img class="scotch bd bleu" src="images/site/ruban-bleu.png" alt="" draggable="false" style="--t:-4deg"></span></figure>
+    <div class="p4-coin">
+      <div class="entete">
+        <fr>
+          <h1 class="projet-titre long"><span class="numero main">06</span><span class="titre-cap">16 architectures manifestes</span><span class="annee-titre main">2025</span></h1>
+        </fr>
+        <en>
+          <h1 class="projet-titre long"><span class="numero main">06</span><span class="titre-cap">16 Manifesto Architectures</span><span class="annee-titre main">2025</span></h1>
+        </en>
+        <dl class="fiche">
+          <fr>
+            <dt>Professeur</dt><dd>Jean Verville</dd>
+            <dt>Artiste invité</dt><dd>Maxime Rheault, <br class="br-mob">directeur de création</dd>
+            <dt class="longue">Équipe</dt><dd class="longue">Rose Boucher-Emond, Raphaelle Brouw, Charles Castonguay, Marie-Lyne Chaaya, Ludovic de Bluze, Pascale Desbiens, Dave Desmarais, Émilie Drouin, Miléna Dugny, Pierre Fauroux-Crédot, Nicolas Lamberty, Bianca Larouche, Laurent Légaré, Hugo Sauvé, Laurie Thériault, César Vallé</dd>
+          </fr>
+          <en>
+            <dt>Professor</dt><dd>Jean Verville</dd>
+            <dt>Guest artist</dt><dd>Maxime Rheault, <br class="br-mob">creative director</dd>
+            <dt class="longue">Team</dt><dd class="longue">Rose Boucher-Emond, Raphaelle Brouw, Charles Castonguay, Marie-Lyne Chaaya, Ludovic de Bluze, Pascale Desbiens, Dave Desmarais, Émilie Drouin, Miléna Dugny, Pierre Fauroux-Crédot, Nicolas Lamberty, Bianca Larouche, Laurent Légaré, Hugo Sauvé, Laurie Thériault, César Vallé</dd>
+          </en>
+        </dl>
+      </div>
+      <ol class="chapitres">
+        <fr>
+          <li><a href="#ch-1"><span class="biffe"><span class="i">1.</span>L’exposition</span></a></li>
+          <li><a href="#ch-2"><span class="biffe"><span class="i">2.</span>Mon manifeste</span></a></li>
+        </fr>
+        <en>
+          <li><a href="#ch-1"><span class="biffe"><span class="i">1.</span>The exhibition</span></a></li>
+          <li><a href="#ch-2"><span class="biffe"><span class="i">2.</span>My manifesto</span></a></li>
+        </en>
+      </ol>
+    </div>
+  </section>
+
+
+  <!-- ——————  CHAPITRE 1  —————— -->
+
+  <section class="p4-grille p4-chapitre aere" id="ch-1">
+
+    <div class="p4-texte g" style="grid-row:1 / span 1">
+      <fr>
+        <h2 class="chapitre-nom">L’exposition</h2>
+        <p>Ce projet prend la forme d’une installation à l’échelle 1:1 réalisée dans l’espace du bureau de design graphique Critérium, visant à matérialiser une réflexion critique sur la société de consommation et ses dérives, notamment à travers l’architecture commerciale et résidentielle de luxe. Le point de départ est le détournement d’un slogan issu de la promotion immobilière haut de gamme, utilisé comme déclencheur d’une lecture critique des comportements humains liés à la quête du statut et du&nbsp;«&nbsp;luxueux&nbsp;».</p>
+        <p>Initialement séduisant, le message publicitaire est progressivement vidé de sa promesse et confronté à des enjeux sociaux tels que l’aliénation et la fabrication du désir. L’installation met en scène ce slogan dans un environnement architectural volontairement artificiel et creux, révélant l’écart entre l’imaginaire de la consommation et sa&nbsp;réalité.</p>
+        <p>Pensée comme un manifeste spatial, l’intervention invite le spectateur à prendre distance face aux mécanismes de séduction de la publicité et à interroger sa propre relation à l’espace, au désir et à l’acte&nbsp;d’achat.</p>
+      </fr>
+      <en>
+        <h2 class="chapitre-nom">The exhibition</h2>
+        <p>This project takes the form of a 1:1 scale installation built in the space of the graphic design studio Critérium, aiming to give material form to a critical reflection on consumer society and its excesses, particularly through luxury commercial and residential architecture. The starting point is the subversion of a slogan taken from high-end real estate marketing, used as a trigger for a critical reading of human behaviours tied to the pursuit of status and of the&nbsp;“luxurious”.</p>
+        <p>Seductive at first, the advertising message is gradually emptied of its promise and confronted with social issues such as alienation and the manufacturing of desire. The installation stages this slogan in a deliberately artificial and hollow architectural environment, revealing the gap between the imagery of consumption and its&nbsp;reality.</p>
+        <p>Conceived as a spatial manifesto, the intervention invites viewers to step back from the seductive mechanisms of advertising and to question their own relationship to space, to desire and to the act of&nbsp;buying.</p>
+      </en>
+    </div>
+
+    <figure class="p4-img leg-bas-mob" style="grid-column:7 / span 5;grid-row:1;max-width:calc(var(--hmax) * 1.000)">
+      <fr>
+        <span class="im" tabindex="0" role="button"><img src="images/projets/06-16-architectures-manifestes/m-expo-2.jpg" alt="L’installation chez Critérium" loading="lazy"><img class="scotch hd bleu" src="images/site/ruban-bleu.png" alt="" draggable="false" style="--t:0deg"></span>
+        <figcaption>L’installation chez Critérium</figcaption>
+      </fr>
+      <en>
+        <span class="im" tabindex="0" role="button"><img src="images/projets/06-16-architectures-manifestes/m-expo-2.jpg" alt="The installation at Critérium" loading="lazy"><img class="scotch hd bleu" src="images/site/ruban-bleu.png" alt="" draggable="false" style="--t:0deg"></span>
+        <figcaption>The installation at Critérium</figcaption>
+      </en>
+    </figure>
+
+    <figure class="p4-img" style="grid-column:2 / span 7;grid-row:2;max-width:calc(var(--hmax) * 1.333)">
+      <span class="im" tabindex="0" role="button"><img src="images/projets/06-16-architectures-manifestes/m-expo-7.jpg" alt="" loading="lazy"><img class="scotch hg bleu" src="images/site/ruban-bleu.png" alt="" draggable="false" style="--t:-3deg"></span>
+    </figure>
+
+    <figure class="p4-img bas2 bord-d" style="grid-column:10 / span 3;grid-row:2;max-width:calc(var(--hmax) * 0.750)">
+      <span class="im" tabindex="0" role="button"><img src="images/projets/06-16-architectures-manifestes/m-expo-4.jpg" alt="" loading="lazy"></span>
+    </figure>
+
+    <figure class="p4-img bord-g" style="grid-column:1 / span 9;grid-row:3;max-width:calc(var(--hmax) * 3.103)">
+      <span class="im" tabindex="0" role="button"><img src="images/projets/06-16-architectures-manifestes/m-expo-6.jpg" alt="" loading="lazy"></span>
+    </figure>
+
+    <figure class="p4-img bord-g" style="grid-column:1 / span 5;grid-row:4;max-width:calc(var(--hmax) * 1.000)">
+      <span class="im" tabindex="0" role="button"><img src="images/projets/06-16-architectures-manifestes/m-expo-3.jpg" alt="" loading="lazy"></span>
+    </figure>
+
+    <figure class="p4-img bas2" style="grid-column:7 / span 3;grid-row:4;max-width:calc(var(--hmax) * 0.750)">
+      <span class="im" tabindex="0" role="button"><img src="images/projets/06-16-architectures-manifestes/m-expo-8.jpg" alt="" loading="lazy"><img class="scotch h bleu" src="images/site/ruban-bleu.png" alt="" draggable="false" style="--t:2deg"></span>
+    </figure>
+
+    <figure class="p4-img monte bord-d" style="grid-column:10 / span 3;grid-row:5;max-width:calc(var(--hmax) * 0.750)">
+      <span class="im" tabindex="0" role="button"><img src="images/projets/06-16-architectures-manifestes/m-expo-5.jpg" alt="" loading="lazy"></span>
+    </figure>
+
+    <figure class="p4-img" style="grid-column:2 / span 8;grid-row:5;max-width:calc(var(--hmax) * 3.030)">
+      <span class="im" tabindex="0" role="button"><img src="images/projets/06-16-architectures-manifestes/m-expo-9.jpg" alt="" loading="lazy"></span>
+    </figure>
+  </section>
+
+
+  <!-- ——————  CHAPITRE 2  —————— -->
+
+  <section class="p4-grille p4-chapitre aere" id="ch-2">
+
+    <div class="p4-texte d manifeste" style="grid-row:1 / span 3">
+      <fr>
+        <h2 class="chapitre-nom">Mon manifeste</h2>
+        <p>AUJOURD’HUI,</p>
+        <p>Un simple code : 1-64452-15-1.</p>
+        <p>1 pour mon pays d’origine,<br>64452 pour l’identité du fabricant,<br>15 pour mon numéro individuel,<br>1 pour le contrôle ultime.<br>Je suis dans la machine 64452, vagabondant dans les villes.<br>Elle scanne ces produits, les enregistre et les assemble.<br>Elle m’offre sans cesse de nouveaux espaces dénués de lien.</p>
+        <p>Mais j’ai perdu le sens de ce qui m’est vraiment proposé.<br>Je me déplace pour vivre, mais aussi pour consommer,<br>tissant des liens factices et des besoins illusoires.<br>Je n’avais pas conscience de l’emprise de cette machine.<br>Une tension se crée.</p>
+        <p>Je me souviens de mes vrais besoins, je me critique, me rebelle.<br>Je m’éveille, mon discours intérieur devient parole.<br>Ceux qui poseront des questions,<br>décoderont cette fausse logique.</p>
+        <p>La machine me détecte, je cesse de l’alimenter.<br>Je deviens un virus, un agent d’autorégulation.</p>
+        <p>Elle m’éjecte, je suis dehors et comprends maintenant son ampleur.</p>
+        <p>DEMAIN,<br>Je serai mini, oui, mais présent, une forme de résistance tangible.<br>Mais, je nécessite cet hôte,<br>pour y injecter mon matériel génétique, ma posture critique.<br>Je choisis mon rôle dans cette digestion.<br>Jusqu’à ce que plus personne ne puisse l’alimenter.</p>
+        <p>Retournes-y, expose ces rouages.<br>Comprends comment nous sommes influencés,<br>et comment, ensemble, nous pouvons nous en libérer.</p>
+      </fr>
+      <en>
+        <h2 class="chapitre-nom">My manifesto</h2>
+        <p>TODAY,</p>
+        <p>A simple code: 1-64452-15-1.</p>
+        <p>1 for my country of origin,<br>64452 for the manufacturer’s identity,<br>15 for my individual number,<br>1 for ultimate control.<br>I am inside machine 64452, wandering through cities.<br>It scans these products, records them and assembles them.<br>It endlessly offers me new spaces devoid of connection.</p>
+        <p>But I have lost the meaning of what is truly offered to me.<br>I move around to live, but also to consume,<br>weaving false ties and illusory needs.<br>I was not aware of this machine’s hold on me.<br>A tension builds.</p>
+        <p>I remember my true needs, I question myself, I rebel.<br>I awaken, my inner voice becomes speech.<br>Those who ask questions<br>will decode this false logic.</p>
+        <p>The machine detects me, I stop feeding it.<br>I become a virus, an agent of self-regulation.</p>
+        <p>It ejects me, I am outside and now understand its scale.</p>
+        <p>TOMORROW,<br>I will be mini, yes, but present, a tangible form of resistance.<br>But I need this host,<br>to inject my genetic material into it, my critical stance.<br>I choose my role in this digestion.<br>Until no one can feed it anymore.</p>
+        <p>Go back in, expose its workings.<br>Understand how we are influenced,<br>and how, together, we can free ourselves from it.</p>
+      </en>
+    </div>
+
+    <figure class="p4-img plan bord-g" style="grid-column:1 / span 6;grid-row:1;max-width:calc(var(--hmax) * 2.314)">
+      <span class="im" tabindex="0" role="button"><img src="images/projets/06-16-architectures-manifestes/m-planche.jpg" alt="" loading="lazy"></span>
+    </figure>
+
+    <figure class="p4-img bord-g" style="grid-column:1 / span 6;grid-row:2;max-width:calc(var(--hmax) * 1.437)">
+      <span class="im" tabindex="0" role="button"><img src="images/projets/06-16-architectures-manifestes/m-machine-1.jpg" alt="" loading="lazy"></span>
+    </figure>
+
+    <figure class="p4-img monte" style="grid-column:7 / span 2;grid-row:3;max-width:calc(var(--hmax) * 0.419)">
+      <span class="im" tabindex="0" role="button"><img src="images/projets/06-16-architectures-manifestes/m-machine-2.jpg" alt="" loading="lazy"></span>
+    </figure>
+
+    <figure class="p4-img monte bord-d" style="grid-column:10 / span 3;grid-row:3;max-width:calc(var(--hmax) * 0.642)">
+      <span class="im" tabindex="0" role="button"><img src="images/projets/06-16-architectures-manifestes/m-machine-5.jpg" alt="" loading="lazy"></span>
+    </figure>
+
+    <figure class="p4-img bord-g" style="grid-column:1 / span 6;grid-row:3;max-width:calc(var(--hmax) * 1.445)">
+      <span class="im" tabindex="0" role="button"><img src="images/projets/06-16-architectures-manifestes/m-machine-3.jpg" alt="" loading="lazy"></span>
+    </figure>
+
+    <figure class="p4-img bord-g" style="grid-column:1 / span 6;grid-row:4;max-width:calc(var(--hmax) * 1.564)">
+      <span class="im" tabindex="0" role="button"><img src="images/projets/06-16-architectures-manifestes/m-machine-4.jpg" alt="" loading="lazy"></span>
+    </figure>
+
+    <figure class="p4-img bas bord-d" style="grid-column:7 / span 6;grid-row:4;max-width:calc(var(--hmax) * 1.631)">
+      <span class="im" tabindex="0" role="button"><img src="images/projets/06-16-architectures-manifestes/m-machine-6.jpg" alt="" loading="lazy"></span>
+    </figure>
+
+    <figure class="p4-img plan" style="grid-column:2 / span 10;grid-row:5;max-width:calc(var(--hmax) * 2.009)">
+      <span class="im" tabindex="0" role="button"><img src="images/projets/06-16-architectures-manifestes/m-machine-7.jpg" alt="" loading="lazy"></span>
+    </figure>
+  </section>
+</main>
+</template>
+
+
+
+
+
+<!-- ======================================================================================
+
+     PROJET 07 — 1ER JUILLET
+     (adresse : index.html#/1er-juillet)
+
+     ====================================================================================== -->
+
+<template data-page="1er-juillet" data-classe="">
+<main class="projet4 page-entree">
+
+
+  <!-- ——————  OUVERTURE : la grande image du haut, puis le titre et la fiche  —————— -->
+
+  <section class="p4-grille p4-ouverture">
+    <figure class="p4-hero"><span class="im" tabindex="0" role="button"><img src="images/projets/07-1er-juillet/o-diable-4.jpg" alt=""><img class="scotch h bleu" src="images/site/ruban-bleu.png" alt="" draggable="false" style="--t:4deg"></span></figure>
+    <div class="p4-coin">
+      <div class="entete">
+        <fr>
+          <h1 class="projet-titre long"><span class="numero main">07</span><span class="titre-cap">1er Juillet</span> <span class="nowrap">(La crise de l’objet)<span class="annee-titre main">2026</span></span></h1>
+        </fr>
+        <en>
+          <h1 class="projet-titre long"><span class="numero main">07</span><span class="titre-cap">July 1st</span> <span class="nowrap">(La Crise de l’Objet)<span class="annee-titre main">2026</span></span></h1>
+        </en>
+        <dl class="fiche">
+          <fr>
+            <dt>Collaboration</dt><dd>Simone Leblanc, David&nbsp;Lessard <br class="br-mob">et Hubert&nbsp;Hommecea</dd>
+          </fr>
+          <en>
+            <dt>Collaboration</dt><dd>Simone Leblanc, David&nbsp;Lessard <br class="br-mob">and Hubert&nbsp;Hommecea</dd>
+          </en>
+        </dl>
+      </div>
+    </div>
+  </section>
+
+
+  <!-- ——————  CHAPITRE 1  —————— -->
+
+  <section class="p4-grille p4-chapitre">
+
+    <div class="p4-texte g" style="grid-row:1 / span 2">
+      <fr>
+        <p>Et puis le 1er juillet arrive et avec lui l’appréhension d’une journée&nbsp;d’embuches.</p>
+        <p class="trois"><span>Stocker.</span><span>Assembler.</span><span>Attacher.</span></p>
+        <p>Une crise anticipée, un rituel annuel, une journée entre urgence et quotidien. Dans cette instabilité, le diable approche une retraite bien méritée. Marqué par le passage perpétuel des lits, des robinets, des tables, il se dénature. (Ré)employé de manière improbable, le chariot se travestit en mobilité meublée, c’est à son tour d’entreposer. Falsifiant son usage initial, il porte les rebuts d’un changement d’adresse. Les sangles supportent. Les cartons encaissent. Le diable roule. Sa fonction initiale se suspend, l’usage se déplace. Au final peut-être que rien ne se crée, rien ne se perd, et que tout se transforme. La transition n’est plus&nbsp;: réemployer, c’est rénover le rituel. On se réconforte dans l’idée de vivre dans ses&nbsp;boîtes.</p>
+        <p>Et puis le 1er juillet est&nbsp;là.</p>
+      </fr>
+      <en>
+        <p>And then July 1st arrives, and with it the dread of a day full of&nbsp;pitfalls.</p>
+        <p class="trois"><span>Store.</span><span>Assemble.</span><span>Strap.</span></p>
+        <p>An anticipated crisis, an annual ritual, a day caught between emergency and the everyday. In this instability, the hand truck nears a well-earned retirement. Worn by the endless passage of beds, faucets and tables, it loses its nature. (Re)used in an unlikely way, the cart disguises itself as furnished mobility; now it is its turn to store. Falsifying its original use, it carries the leftovers of a change of address. The straps hold. The boxes take the blows. The hand truck rolls. Its original function is suspended, its use shifts. In the end, perhaps nothing is created, nothing is lost, and everything is transformed. The transition is no more: to reuse is to renew the ritual. We find comfort in the idea of living in our&nbsp;boxes.</p>
+        <p>And then July 1st is&nbsp;here.</p>
+      </en>
+    </div>
+
+    <figure class="p4-img plan" style="grid-column:6 / span 4;grid-row:1;max-width:calc(var(--hmax) * 1.023)">
+      <span class="im" tabindex="0" role="button"><img src="images/projets/07-1er-juillet/o-croquis.jpg" alt="" loading="lazy"></span>
+    </figure>
+
+    <figure class="p4-img bas bord-d" style="grid-column:10 / span 3;grid-row:1;max-width:calc(var(--hmax) * 0.744)">
+      <span class="im" tabindex="0" role="button"><img src="images/projets/07-1er-juillet/o-atelier-1.jpg" alt="" loading="lazy"><img class="scotch hd bleu" src="images/site/ruban-bleu.png" alt="" draggable="false" style="--t:4deg"></span>
+    </figure>
+
+    <figure class="p4-img" style="grid-column:6 / span 4;grid-row:2;max-width:calc(var(--hmax) * 0.866)">
+      <span class="im" tabindex="0" role="button"><img src="images/projets/07-1er-juillet/o-atelier-3.jpg" alt="" loading="lazy"></span>
+    </figure>
+
+    <figure class="p4-img bas bord-d" style="grid-column:10 / span 3;grid-row:2;max-width:calc(var(--hmax) * 0.800)">
+      <span class="im" tabindex="0" role="button"><img src="images/projets/07-1er-juillet/o-diable-2.jpg" alt="" loading="lazy"></span>
+    </figure>
+
+    <figure class="p4-img bord-g" style="grid-column:1 / span 4;grid-row:3;max-width:calc(var(--hmax) * 0.833)">
+      <span class="im" tabindex="0" role="button"><img src="images/projets/07-1er-juillet/o-atelier-2.jpg" alt="" loading="lazy"></span>
+    </figure>
+
+    <figure class="p4-img bas" style="grid-column:5 / span 4;grid-row:3;max-width:calc(var(--hmax) * 0.800)">
+      <span class="im" tabindex="0" role="button"><img src="images/projets/07-1er-juillet/o-diable-1.jpg" alt="" loading="lazy"><img class="scotch h bleu" src="images/site/ruban-bleu.png" alt="" draggable="false" style="--t:-1deg"><img class="scotch bg bleu" src="images/site/ruban-bleu.png" alt="" draggable="false" style="--t:-3deg"></span>
+    </figure>
+
+    <figure class="p4-img bord-d" style="grid-column:9 / span 4;grid-row:3;max-width:calc(var(--hmax) * 1.026)">
+      <span class="im" tabindex="0" role="button"><img src="images/projets/07-1er-juillet/o-atelier-4.jpg" alt="" loading="lazy"><img class="scotch bg bleu" src="images/site/ruban-bleu.png" alt="" draggable="false" style="--t:4deg"><img class="scotch bd bleu" src="images/site/ruban-bleu.png" alt="" draggable="false" style="--t:-6deg"></span>
+    </figure>
+
+    <figure class="p4-img bas" style="grid-column:2 / span 4;grid-row:4;max-width:calc(var(--hmax) * 0.800)">
+      <span class="im" tabindex="0" role="button"><img src="images/projets/07-1er-juillet/o-diable-3.jpg" alt="" loading="lazy"></span>
+    </figure>
+
+    <figure class="p4-img" style="grid-column:7 / span 4;grid-row:4;max-width:calc(var(--hmax) * 0.861)">
+      <span class="im" tabindex="0" role="button"><img src="images/projets/07-1er-juillet/o-rue.jpg" alt="" loading="lazy"><img class="scotch hd bleu" src="images/site/ruban-bleu.png" alt="" draggable="false" style="--t:-1deg"></span>
+    </figure>
+  </section>
+</main>
+</template>
+
+
+
+
+
+<!-- ======================================================================================
+
+     PROJET 08 — PROCHAINS ARRÊTS…
+     (adresse : index.html#/prochains-arrets)
+
+     ====================================================================================== -->
+
+<template data-page="prochains-arrets" data-classe="">
+<main class="projet4 page-entree">
+
+
+  <!-- ——————  OUVERTURE : la grande image du haut, puis le titre et la fiche  —————— -->
+
+  <section class="p4-grille p4-ouverture">
+    <figure class="p4-hero"><span class="im" tabindex="0" role="button"><img src="images/projets/08-prochains-arrets/pa-expo-1.jpg" alt=""><img class="scotch h bleu" src="images/site/ruban-bleu.png" alt="" draggable="false" style="--t:-3deg"></span></figure>
+    <div class="p4-coin">
+      <div class="entete">
+        <fr>
+          <h1 class="projet-titre"><span class="numero main">08</span><span class="titre-cap">Prochains arrêts…</span><span class="annee-titre main">2026</span></h1>
+        </fr>
+        <en>
+          <h1 class="projet-titre"><span class="numero main">08</span><span class="titre-cap">Next Stops…</span><span class="annee-titre main">2026</span></h1>
+        </en>
+        <dl class="fiche">
+          <fr>
+            <dt>Équipe</dt><dd>Ines Mergaoui, Eve Gilbert, Simone Leblanc <br class="br-mob">et Charles-Antoine&nbsp;Lauzon</dd>
+          </fr>
+          <en>
+            <dt>Team</dt><dd>Ines Mergaoui, Eve Gilbert, Simone Leblanc <br class="br-mob">and Charles-Antoine&nbsp;Lauzon</dd>
+          </en>
+          <dt>Instagram</dt><dd><a class="lien-insta" href="https://www.instagram.com/prochains.arrets/" target="_blank" rel="noopener">@prochains.arrets</a></dd>
+        </dl>
+      </div>
+    </div>
+  </section>
+
+
+  <!-- ——————  CHAPITRE 1  —————— -->
+
+  <section class="p4-grille p4-chapitre">
+
+    <div class="p4-texte g" style="grid-row:1 / span 1">
+      <fr>
+        <p>Prochains arrêts est un projet de recherche-création interdisciplinaire qui explore le potentiel du réemploi des matériaux dans la conception de mobilier urbain aux abords des arrêts d’autobus du RTC. Initié par une équipe de quatre étudiantes en architecture et d’une étudiante en design de produits, le projet s’est d’abord construit autour de l’observation des quartiers et de leur culture matérielle. À travers la photographie, le scan 3D et la photogrammétrie, nous avons documenté les textures, les assemblages et les éléments architecturaux propres à chaque&nbsp;territoire.</p>
+      </fr>
+      <en>
+        <p>Next Stops is an interdisciplinary research-creation project that explores the potential of reusing materials in the design of street furniture around RTC bus stops. Initiated by a team of four architecture students and a product design student, the project was first built around observing neighbourhoods and their material culture. Through photography, 3D scanning and photogrammetry, we documented the textures, assemblies and architectural elements specific to each&nbsp;area.</p>
+      </en>
+    </div>
+
+    <figure class="p4-img" style="grid-column:7 / span 3;grid-row:1 / span 2;max-width:calc(var(--hmax) * 0.667)">
+      <span class="im" tabindex="0" role="button"><img src="images/projets/08-prochains-arrets/pa-contexte-1.jpg" alt="" loading="lazy"><img class="scotch hg bleu" src="images/site/ruban-bleu.png" alt="" draggable="false" style="--t:-4deg"></span>
+    </figure>
+
+    <figure class="p4-img bas bord-d" style="grid-column:10 / span 3;grid-row:1 / span 2;max-width:calc(var(--hmax) * 0.667)">
+      <span class="im" tabindex="0" role="button"><img src="images/projets/08-prochains-arrets/pa-contexte-3.jpg" alt="" loading="lazy"></span>
+    </figure>
+
+    <figure class="p4-img" style="grid-column:2 / span 3;grid-row:2;max-width:calc(var(--hmax) * 0.667)">
+      <span class="im" tabindex="0" role="button"><img src="images/projets/08-prochains-arrets/pa-contexte-4.jpg" alt="" loading="lazy"></span>
+    </figure>
+
+    <figure class="p4-img p4-vid bas" style="grid-column:2 / span 7;grid-row:3;max-width:calc(var(--hmax) * 1.333)">
+      <video width="960" height="720" src="images/projets/08-prochains-arrets/pa-video-contexte.mp4" poster="images/projets/08-prochains-arrets/pa-video-affiche.jpg" controls playsinline preload="none"></video>
+    </figure>
+
+    <figure class="p4-img monte bord-d" style="grid-column:10 / span 3;grid-row:3;max-width:calc(var(--hmax) * 0.667)">
+      <span class="im" tabindex="0" role="button"><img src="images/projets/08-prochains-arrets/pa-contexte-2.jpg" alt="" loading="lazy"><img class="scotch hd bleu" src="images/site/ruban-bleu.png" alt="" draggable="false" style="--t:-3deg"></span>
+    </figure>
+  </section>
+
+
+  <!-- ——————  CHAPITRE 2  —————— -->
+
+  <section class="p4-grille p4-chapitre">
+
+    <div class="p4-texte d" style="grid-row:1 / span 1">
+      <fr>
+        <p>Ces explorations ont ensuite guidé la collecte de matériaux dans différentes ressources de récupération à Québec, donnant naissance à une matériauthèque répertoriant leur provenance, leurs caractéristiques et leurs possibilités de&nbsp;transformation.</p>
+      </fr>
+      <en>
+        <p>These explorations then guided the collection of materials from various salvage resources in Québec City, giving rise to a materials library cataloguing their origin, their characteristics and their potential for&nbsp;transformation.</p>
+      </en>
+    </div>
+
+    <figure class="p4-img bord-g" style="grid-column:1 / span 3;grid-row:1;max-width:calc(var(--hmax) * 0.750)">
+      <span class="im" tabindex="0" role="button"><img src="images/projets/08-prochains-arrets/pa-processus-entrepot-rtc.jpg" alt="" loading="lazy"><img class="scotch hd bleu" src="images/site/ruban-bleu.png" alt="" draggable="false" style="--t:3deg"></span>
+    </figure>
+
+    <figure class="p4-img bas" style="grid-column:4 / span 3;grid-row:1;max-width:calc(var(--hmax) * 0.750)">
+      <span class="im" tabindex="0" role="button"><img src="images/projets/08-prochains-arrets/pa-processus-recyclerie.jpg" alt="" loading="lazy"></span>
+    </figure>
+
+    <figure class="p4-img plan pleine" style="grid-column:1 / -1;grid-row:2;justify-self:center;max-width:calc(var(--hmax) * 1.414)">
+      <span class="im" tabindex="0" role="button"><img src="images/projets/08-prochains-arrets/pa-affiche-materiaux.jpg" alt="" loading="lazy"></span>
+    </figure>
+  </section>
+
+
+  <!-- ——————  CHAPITRE 3  —————— -->
+
+  <section class="p4-grille p4-chapitre">
+
+    <div class="p4-texte g" style="grid-row:1">
+      <fr>
+        <p>À partir de cet inventaire, nous avons développé différentes pistes de conception par le dessin, la modélisation 3D et les axonométries, avant de les mettre à l’épreuve par des expérimentations et des prototypes d’assemblage à l’échelle 1:1. Plutôt que de chercher une solution unique, la démarche privilégie l’essai, la manipulation et l’exploration des possibilités constructives offertes par les ressources&nbsp;disponibles.</p>
+      </fr>
+      <en>
+        <p>Drawing on this inventory, we developed different design approaches through drawing, 3D modelling and axonometric views, before putting them to the test through experiments and assembly prototypes at 1:1 scale. Rather than seeking a single solution, the process favours trial, handling and the exploration of the constructive possibilities offered by the available&nbsp;resources.</p>
+      </en>
+    </div>
+
+    <figure class="p4-img plan" style="grid-column:7 / span 3;grid-row:1 / span 2;max-width:calc(var(--hmax) * 0.707)">
+      <span class="im" tabindex="0" role="button"><img src="images/projets/08-prochains-arrets/pa-axonometrie.jpg" alt="" loading="lazy"></span>
+    </figure>
+
+    <figure class="p4-img plan bas bord-d" style="grid-column:10 / span 3;grid-row:1 / span 2;max-width:calc(var(--hmax) * 0.707)">
+      <span class="im" tabindex="0" role="button"><img src="images/projets/08-prochains-arrets/pa-axonometrie-2.jpg" alt="" loading="lazy"></span>
+    </figure>
+
+    <figure class="p4-img p4-vid bord-g desc" style="grid-column:1 / span 6;grid-row:2;max-width:calc(var(--hmax) * 1.791)">
+      <img class="gif" src="images/projets/08-prochains-arrets/pa-processus.webp" width="616" height="344" alt="" loading="lazy" draggable="false">
+    </figure>
+  </section>
+
+
+  <!-- ——————  CHAPITRE 4  —————— -->
+
+  <section class="p4-grille p4-chapitre">
+
+    <div class="p4-texte d" style="grid-row:1 / span 1">
+      <fr>
+        <p>Enfin, le projet se prolonge par une exposition participative et une plateforme de diffusion qui rendent accessibles la matériauthèque et le processus de recherche, invitant le public à imaginer à son tour de nouvelles associations et possibilités de&nbsp;réemploi.</p>
+      </fr>
+      <en>
+        <p>Finally, the project extends into a participatory exhibition and a dissemination platform that make the materials library and the research process accessible, inviting the public, in turn, to imagine new combinations and possibilities for&nbsp;reuse.</p>
+      </en>
+    </div>
+
+
+    <!-- ——————  PILE : des images posées l'une sous l'autre  —————— -->
+
+    <div class="p4-pile" style="grid-column:1 / span 6;grid-row:1 / span 3">
+
+      <figure class="p4-img bord-g desc" style="grid-column:1 / span 6;grid-row:1;max-width:calc(var(--hmax) * 1.500)">
+        <span class="im" tabindex="0" role="button"><img src="images/projets/08-prochains-arrets/pa-expo.jpg" alt="" loading="lazy"><img class="scotch bd bleu" src="images/site/ruban-bleu.png" alt="" draggable="false" style="--t:-3deg"></span>
+      </figure>
+
+      <figure class="p4-img bord-g" style="grid-column:1 / span 5;grid-row:2;max-width:calc(var(--hmax) * 1.500)">
+        <span class="im" tabindex="0" role="button"><img src="images/projets/08-prochains-arrets/pa-atelier.jpg" alt="" loading="lazy"></span>
+      </figure>
+    </div>
+
+    <figure class="p4-img bas bord-d" style="grid-column:7 / span 6;grid-row:2;max-width:calc(var(--hmax) * 1.500)">
+      <span class="im" tabindex="0" role="button"><img src="images/projets/08-prochains-arrets/pa-expo-terminus.jpg" alt="" loading="lazy"><img class="scotch hd bleu" src="images/site/ruban-bleu.png" alt="" draggable="false" style="--t:3deg"></span>
+    </figure>
+
+    <figure class="p4-img bas bord-d vers-centre" style="grid-column:8 / span 5;grid-row:3;max-width:calc(var(--hmax) * 1.500)">
+      <span class="im" tabindex="0" role="button"><img src="images/projets/08-prochains-arrets/pa-expo-10.jpg" alt="" loading="lazy"><img class="scotch hg bleu" src="images/site/ruban-bleu.png" alt="" draggable="false" style="--t:2deg"></span>
+    </figure>
+
+    <figure class="p4-img bord-g" style="grid-column:1 / span 4;grid-row:4;max-width:calc(var(--hmax) * 0.789)">
+      <span class="im" tabindex="0" role="button"><img src="images/projets/08-prochains-arrets/pa-expo-9.jpg" alt="" loading="lazy"></span>
+    </figure>
+
+    <figure class="p4-img bas" style="grid-column:5 / span 5;grid-row:4;max-width:calc(var(--hmax) * 1.343)">
+      <span class="im" tabindex="0" role="button"><img src="images/projets/08-prochains-arrets/pa-expo-5.jpg" alt="" loading="lazy"></span>
+    </figure>
+
+    <figure class="p4-img p4-vid bas petite" style="grid-column:10 / span 2;grid-row:4;max-width:calc(var(--hmax) * 0.859)">
+      <img class="gif" src="images/projets/08-prochains-arrets/pa-affiche-anim.webp" width="256" height="298" alt="" loading="lazy" draggable="false">
+    </figure>
+
+    <figure class="p4-img" style="grid-column:2 / span 6;grid-row:5;max-width:calc(var(--hmax) * 1.777)">
+      <span class="im" tabindex="0" role="button"><img src="images/projets/08-prochains-arrets/pa-expo-3.jpg" alt="" loading="lazy"><img class="scotch h bleu" src="images/site/ruban-bleu.png" alt="" draggable="false" style="--t:1deg"></span>
+    </figure>
+
+    <figure class="p4-img bas" style="grid-column:9 / span 3;grid-row:5;max-width:calc(var(--hmax) * 0.750)">
+      <span class="im" tabindex="0" role="button"><img src="images/projets/08-prochains-arrets/pa-expo-8.jpg" alt="" loading="lazy"></span>
+    </figure>
+
+    <figure class="p4-img bord-g" style="grid-column:1 / span 6;grid-row:6;max-width:calc(var(--hmax) * 1.500)">
+      <span class="im" tabindex="0" role="button"><img src="images/projets/08-prochains-arrets/pa-expo-4.jpg" alt="" loading="lazy"></span>
+    </figure>
+
+    <figure class="p4-img bas bord-d" style="grid-column:7 / span 6;grid-row:6;max-width:calc(var(--hmax) * 1.500)">
+      <span class="im" tabindex="0" role="button"><img src="images/projets/08-prochains-arrets/pa-expo-7.jpg" alt="" loading="lazy"><img class="scotch hd bleu" src="images/site/ruban-bleu.png" alt="" draggable="false" style="--t:-2deg"></span>
+    </figure>
+
+    <figure class="p4-img" style="grid-column:2 / span 4;grid-row:7;max-width:calc(var(--hmax) * 0.667)">
+      <span class="im" tabindex="0" role="button"><img src="images/projets/08-prochains-arrets/pa-participation-2.jpg" alt="" loading="lazy"></span>
+    </figure>
+
+    <figure class="p4-img plan bas" style="grid-column:7 / span 5;grid-row:7;max-width:calc(var(--hmax) * 1.000)">
+      <span class="im" tabindex="0" role="button"><img src="images/projets/08-prochains-arrets/pa-participation.jpg" alt="" loading="lazy"></span>
+    </figure>
+  </section>
+</main>
+</template>
+
+
+
+
+
+<!-- ======================================================================================
+
+     PROJET 09 — LE CENTRE NATIONAL DU FILM DU QUÉBEC
+     (adresse : index.html#/centre-national-du-film)
+
+     ====================================================================================== -->
+
+<template data-page="centre-national-du-film" data-classe="">
+<main class="projet4 page-entree">
+
+
+  <!-- ——————  OUVERTURE : la grande image du haut, puis le titre et la fiche  —————— -->
+
+  <section class="p4-grille p4-ouverture">
+    <figure class="p4-hero"><span class="im" tabindex="0" role="button"><img src="images/projets/09-centre-national-du-film/c-ecran-nuit.jpg" alt=""><img class="scotch bd bleu" src="images/site/ruban-bleu.png" alt="" draggable="false" style="--t:-4deg"></span></figure>
+    <div class="p4-coin">
+      <div class="entete">
+        <fr>
+          <h1 class="projet-titre long deux-lignes"><span class="numero main">09</span><span class="titre-cap"><span class="ligne">Le Centre national</span></span><span class="ligne"><span class="titre-cap">du film du Québec</span><span class="annee-titre main">2026</span></span></h1>
+        </fr>
+        <en>
+          <h1 class="projet-titre long deux-lignes"><span class="numero main">09</span><span class="titre-cap"><span class="ligne">The Québec National</span></span><span class="ligne"><span class="titre-cap">Film Centre</span><span class="annee-titre main">2026</span></span></h1>
+        </en>
+      </div>
+      <ol class="chapitres">
+        <fr>
+          <li><a href="#ch-2"><span class="biffe"><span class="i">1.</span>La maquette 1:50</span></a></li>
+        </fr>
+        <en>
+          <li><a href="#ch-2"><span class="biffe"><span class="i">1.</span>The 1:50 model</span></a></li>
+        </en>
+      </ol>
+    </div>
+  </section>
+
+
+  <!-- ——————  CHAPITRE 1  —————— -->
+
+  <section class="p4-grille p4-chapitre" id="ch-1">
+
+    <div class="p4-texte g" style="grid-row:1 / span 1">
+      <fr>
+        <h2 class="chapitre-nom">Le projet</h2>
+        <p>Implanté à l’Anse au Foulon, le Centre national du film du Québec s’inscrit dans un contexte marqué par l’histoire industrielle et portuaire du site. Le projet cherche à transformer cet héritage en un lieu de création accessible, où les espaces peuvent être appropriés et réinterprétés par les&nbsp;usagers.</p>
+        <p>Une machine constructive qui assemble différents plans. Inspirée des typologies industrielles, l’architecture utilise des éléments simples et répétitifs pour structurer l’espace et révéler son&nbsp;histoire.</p>
+        <p>Les anciens silos deviennent ainsi un terrain d’expérimentation et d’exploration, accueillant tournages, fabrication de décors, animation, photographie et projection. Plutôt qu’un bâtiment aux usages figés, le centre offre une structure capable d’évoluer selon les pratiques et les projets, où le public et les créateurs peuvent s’approprier les espaces et participer à la transformation du&nbsp;lieu.</p>
+      </fr>
+      <en>
+        <h2 class="chapitre-nom">The project</h2>
+        <p>Set at the Anse au Foulon, the Québec National Film Centre is part of a context shaped by the industrial and port history of the site. The project seeks to transform this heritage into an accessible place of creation, where spaces can be appropriated and reinterpreted by their&nbsp;users.</p>
+        <p>A constructive machine that assembles different planes. Inspired by industrial typologies, the architecture uses simple, repetitive elements to structure the space and reveal its&nbsp;history.</p>
+        <p>The former silos thus become a ground for experimentation and exploration, hosting film shoots, set building, animation, photography and screenings. Rather than a building with fixed uses, the centre offers a structure able to evolve with practices and projects, where the public and creators can make the spaces their own and take part in transforming the&nbsp;place.</p>
+      </en>
+    </div>
+
+    <figure class="p4-img bas bord-d" style="grid-column:7 / span 6;grid-row:1;max-width:calc(var(--hmax) * 1.179)">
+      <span class="im" tabindex="0" role="button"><img src="images/projets/09-centre-national-du-film/c-ext.jpg" alt="" loading="lazy"></span>
+    </figure>
+
+    <figure class="p4-img plan pleine" style="grid-column:1 / -1;grid-row:2;justify-self:center;max-width:calc(var(--hmax) * 1.74)">
+      <fr>
+        <span class="im" tabindex="0" role="button"><img src="images/projets/09-centre-national-du-film/c-plan.jpg" alt="Plan rez-de-chaussée" loading="lazy"></span>
+        <figcaption>Plan rez-de-chaussée</figcaption>
+      </fr>
+      <en>
+        <span class="im" tabindex="0" role="button"><img src="images/projets/09-centre-national-du-film/c-plan.jpg" alt="Ground floor plan" loading="lazy"></span>
+        <figcaption>Ground floor plan</figcaption>
+      </en>
+    </figure>
+  </section>
+
+
+  <!-- ——————  CHAPITRE 2  —————— -->
+
+  <section class="p4-grille p4-chapitre" id="ch-2">
+
+    <div class="p4-texte d" style="grid-row:1 / span 1">
+      <fr>
+        <h2 class="chapitre-nom">La maquette 1:50</h2>
+        <p>La maquette du projet a été réalisée à l’échelle 1:50 afin de représenter précisément la structure et l’organisation spatiale du Centre national du film du Québec. La fabrication s’est appuyée sur la modélisation et l’impression 3D, permettant de produire les différentes pièces structurelles avec précision, notamment les éléments répétitifs et les assemblages&nbsp;complexes.</p>
+        <p>Chaque composante a été imprimée séparément, puis assemblée manuellement afin de reconstruire la structure du projet. Cette méthode a permis de tester concrètement la relation entre les différents éléments, les circulations et les volumes, tout en rendant visibles les détails de la structure. La maquette devient ainsi un outil d’exploration et de compréhension du projet autant qu’un objet de&nbsp;représentation.</p>
+      </fr>
+      <en>
+        <h2 class="chapitre-nom">The 1:50 model</h2>
+        <p>The project model was made at a 1:50 scale to accurately represent the structure and spatial organization of the Québec National Film Centre. Its fabrication relied on 3D modelling and printing, making it possible to produce the various structural parts precisely, especially the repetitive elements and complex&nbsp;assemblies.</p>
+        <p>Each component was printed separately, then assembled by hand to rebuild the structure of the project. This method made it possible to test, in a concrete way, the relationship between the different elements, circulation and volumes, while making the details of the structure visible. The model thus becomes as much a tool for exploring and understanding the project as an object of&nbsp;representation.</p>
+      </en>
+    </div>
+
+    <figure class="p4-img bord-g" style="grid-column:1 / span 7;grid-row:1;max-width:calc(var(--hmax) * 1.301)">
+      <span class="im" tabindex="0" role="button"><img src="images/projets/09-centre-national-du-film/c-maq-a2.jpg" alt="" loading="lazy"><img class="scotch bg bleu" src="images/site/ruban-bleu.png" alt="" draggable="false" style="--t:0deg"></span>
+    </figure>
+
+    <figure class="p4-img bord-g" style="grid-column:1 / span 5;grid-row:2;max-width:calc(var(--hmax) * 1.106)">
+      <span class="im" tabindex="0" role="button"><img src="images/projets/09-centre-national-du-film/c-maq-c.jpg" alt="" loading="lazy"></span>
+    </figure>
+
+    <figure class="p4-img bas" style="grid-column:6 / span 3;grid-row:2;max-width:calc(var(--hmax) * 0.750)">
+      <span class="im" tabindex="0" role="button"><img src="images/projets/09-centre-national-du-film/c-maq-n.jpg" alt="" loading="lazy"><img class="scotch hd bleu" src="images/site/ruban-bleu.png" alt="" draggable="false" style="--t:-5deg"></span>
+    </figure>
+
+    <figure class="p4-img bord-d" style="grid-column:9 / span 4;grid-row:2;max-width:calc(var(--hmax) * 0.990)">
+      <span class="im" tabindex="0" role="button"><img src="images/projets/09-centre-national-du-film/c-maq-i.jpg" alt="" loading="lazy"><img class="scotch bg bleu" src="images/site/ruban-bleu.png" alt="" draggable="false" style="--t:-3deg"></span>
+    </figure>
+
+
+    <!-- ——————  GALERIE : une grande image, les petites en dessous (une ligne <button> par image)  —————— -->
+
+    <div class="galerie-p" data-nom="g1" style="grid-column:1 / -1;grid-row:3">
+      <figure class="gp-scene plan"><span class="im" tabindex="0" role="button"><span class="gp-cadre"><img class="gp-grande" src="images/projets/09-centre-national-du-film/c-elevation-long.jpg" alt="" loading="lazy" draggable="false"></span></span></figure>
+      <div class="gp-bas">
+        <span class="gp-compte">01 / 14</span>
+        <fr>
+          <span class="gp-fleches"><button type="button" class="gp-prec" aria-label="Précédent"></button><button type="button" class="gp-suiv" aria-label="Suivant"></button></span>
+        </fr>
+        <en>
+          <span class="gp-fleches"><button type="button" class="gp-prec" aria-label="Previous"></button><button type="button" class="gp-suiv" aria-label="Next"></button></span>
+        </en>
+      </div>
+      <div class="gp-vignettes">
+        <button type="button" class="gp-v on plan" data-src="images/projets/09-centre-national-du-film/c-elevation-long.jpg" data-r="2.857" style="--r:2.857" aria-label="Image 1"><img src="images/projets/09-centre-national-du-film/vignettes/c-elevation-long.jpg" alt="" loading="lazy" draggable="false"></button>
+        <button type="button" class="gp-v plan" data-src="images/projets/09-centre-national-du-film/c-coupe.jpg" data-r="0.766" style="--r:0.766" aria-label="Image 2"><img src="images/projets/09-centre-national-du-film/vignettes/c-coupe.jpg" alt="" loading="lazy" draggable="false"></button>
+        <button type="button" class="gp-v plan" data-src="images/projets/09-centre-national-du-film/c-axo.jpg" data-r="1.565" style="--r:1.565" aria-label="Image 3"><img src="images/projets/09-centre-national-du-film/vignettes/c-axo.jpg" alt="" loading="lazy" draggable="false"></button>
+        <button type="button" class="gp-v" data-src="images/projets/09-centre-national-du-film/c-elevation.jpg" data-r="1.178" style="--r:1.178" aria-label="Image 4"><img src="images/projets/09-centre-national-du-film/vignettes/c-elevation.jpg" alt="" loading="lazy" draggable="false"></button>
+        <button type="button" class="gp-v" data-src="images/projets/09-centre-national-du-film/c-facade.jpg" data-r="1.178" style="--r:1.178" aria-label="Image 5"><img src="images/projets/09-centre-national-du-film/vignettes/c-facade.jpg" alt="" loading="lazy" draggable="false"></button>
+        <button type="button" class="gp-v" data-src="images/projets/09-centre-national-du-film/c-int-1.jpg" data-r="1.176" style="--r:1.176" aria-label="Image 6"><img src="images/projets/09-centre-national-du-film/vignettes/c-int-1.jpg" alt="" loading="lazy" draggable="false"></button>
+        <button type="button" class="gp-v" data-src="images/projets/09-centre-national-du-film/c-int-6.jpg" data-r="0.978" style="--r:0.978" aria-label="Image 7"><img src="images/projets/09-centre-national-du-film/vignettes/c-int-6.jpg" alt="" loading="lazy" draggable="false"></button>
+        <button type="button" class="gp-v" data-src="images/projets/09-centre-national-du-film/c-int-7.jpg" data-r="1.016" style="--r:1.016" aria-label="Image 8"><img src="images/projets/09-centre-national-du-film/vignettes/c-int-7.jpg" alt="" loading="lazy" draggable="false"></button>
+        <button type="button" class="gp-v" data-src="images/projets/09-centre-national-du-film/c-int-8.jpg" data-r="0.582" style="--r:0.582" aria-label="Image 9"><img src="images/projets/09-centre-national-du-film/vignettes/c-int-8.jpg" alt="" loading="lazy" draggable="false"></button>
+        <button type="button" class="gp-v" data-src="images/projets/09-centre-national-du-film/c-int-3.jpg" data-r="1.179" style="--r:1.179" aria-label="Image 10"><img src="images/projets/09-centre-national-du-film/vignettes/c-int-3.jpg" alt="" loading="lazy" draggable="false"></button>
+        <button type="button" class="gp-v" data-src="images/projets/09-centre-national-du-film/c-int-2.jpg" data-r="1.176" style="--r:1.176" aria-label="Image 11"><img src="images/projets/09-centre-national-du-film/vignettes/c-int-2.jpg" alt="" loading="lazy" draggable="false"></button>
+        <button type="button" class="gp-v" data-src="images/projets/09-centre-national-du-film/c-film.jpg" data-r="1.333" style="--r:1.333" aria-label="Image 12"><img src="images/projets/09-centre-national-du-film/vignettes/c-film.jpg" alt="" loading="lazy" draggable="false"></button>
+        <button type="button" class="gp-v" data-src="images/projets/09-centre-national-du-film/c-int-5.jpg" data-r="1.176" style="--r:1.176" aria-label="Image 13"><img src="images/projets/09-centre-national-du-film/vignettes/c-int-5.jpg" alt="" loading="lazy" draggable="false"></button>
+        <button type="button" class="gp-v" data-src="images/projets/09-centre-national-du-film/c-rideau.jpg" data-r="1.181" style="--r:1.181" aria-label="Image 14"><img src="images/projets/09-centre-national-du-film/vignettes/c-rideau.jpg" alt="" loading="lazy" draggable="false"></button>
+      </div>
+    </div>
+
+    <figure class="p4-img bord-g" style="grid-column:1 / span 6;grid-row:4;max-width:calc(var(--hmax) * 1.500)">
+      <span class="im" tabindex="0" role="button"><img src="images/projets/09-centre-national-du-film/c-maq-b.jpg" alt="" loading="lazy"><img class="scotch bd bleu" src="images/site/ruban-bleu.png" alt="" draggable="false" style="--t:-1deg"></span>
+    </figure>
+
+    <figure class="p4-img bas" style="grid-column:7 / span 3;grid-row:4;max-width:calc(var(--hmax) * 0.750)">
+      <span class="im" tabindex="0" role="button"><img src="images/projets/09-centre-national-du-film/c-maq-o.jpg" alt="" loading="lazy"></span>
+    </figure>
+
+    <figure class="p4-img plan bord-d" style="grid-column:10 / span 3;grid-row:4;max-width:calc(var(--hmax) * 1.385)">
+      <span class="im" tabindex="0" role="button"><img src="images/projets/09-centre-national-du-film/c-poteaux.jpg" alt="" loading="lazy"></span>
+    </figure>
+
+    <figure class="p4-img bord-g" style="grid-column:1 / span 6;grid-row:5;max-width:calc(var(--hmax) * 1.352)">
+      <span class="im" tabindex="0" role="button"><img src="images/projets/09-centre-national-du-film/c-maq-g.jpg" alt="" loading="lazy"><img class="scotch hg bleu" src="images/site/ruban-bleu.png" alt="" draggable="false" style="--t:-1deg"><img class="scotch hd bleu" src="images/site/ruban-bleu.png" alt="" draggable="false" style="--t:3deg"></span>
+    </figure>
+
+    <figure class="p4-img bas bord-d" style="grid-column:7 / span 6;grid-row:5;max-width:calc(var(--hmax) * 1.325)">
+      <span class="im" tabindex="0" role="button"><img src="images/projets/09-centre-national-du-film/c-maq-h.jpg" alt="" loading="lazy"></span>
+    </figure>
+
+    <figure class="p4-img bord-g" style="grid-column:1 / span 5;grid-row:6;max-width:calc(var(--hmax) * 1.176)">
+      <span class="im" tabindex="0" role="button"><img src="images/projets/09-centre-national-du-film/c-maq-e.jpg" alt="" loading="lazy"></span>
+    </figure>
+
+    <figure class="p4-img bas bord-d" style="grid-column:6 / span 7;grid-row:6;max-width:calc(var(--hmax) * 1.460)">
+      <span class="im" tabindex="0" role="button"><img src="images/projets/09-centre-national-du-film/c-maq-l.jpg" alt="" loading="lazy"><img class="scotch h bleu" src="images/site/ruban-bleu.png" alt="" draggable="false" style="--t:2deg"><img class="scotch bd bleu" src="images/site/ruban-bleu.png" alt="" draggable="false" style="--t:-3deg"></span>
+    </figure>
+
+    <figure class="p4-img bord-g" style="grid-column:1 / span 6;grid-row:7;max-width:calc(var(--hmax) * 1.354)">
+      <span class="im" tabindex="0" role="button"><img src="images/projets/09-centre-national-du-film/c-maq-j.jpg" alt="" loading="lazy"></span>
+    </figure>
+
+    <figure class="p4-img bas bord-d" style="grid-column:7 / span 6;grid-row:7;max-width:calc(var(--hmax) * 1.500)">
+      <span class="im" tabindex="0" role="button"><img src="images/projets/09-centre-national-du-film/c-maq-d.jpg" alt="" loading="lazy"></span>
+    </figure>
+
+    <figure class="p4-img plan bord-g" style="grid-column:1 / span 4;grid-row:8;max-width:calc(var(--hmax) * 1.095)">
+      <fr>
+        <span class="im" tabindex="0" role="button"><img src="images/projets/09-centre-national-du-film/c-croquis.jpg" alt="Croquis" loading="lazy"></span>
+        <figcaption>Croquis</figcaption>
+      </fr>
+      <en>
+        <span class="im" tabindex="0" role="button"><img src="images/projets/09-centre-national-du-film/c-croquis.jpg" alt="Sketch" loading="lazy"></span>
+        <figcaption>Sketch</figcaption>
+      </en>
+    </figure>
+
+    <figure class="p4-img bas bord-d" style="grid-column:6 / span 7;grid-row:8;max-width:calc(var(--hmax) * 1.500)">
+      <span class="im" tabindex="0" role="button"><img src="images/projets/09-centre-national-du-film/c-maq-k.jpg" alt="" loading="lazy"></span>
+    </figure>
+  </section>
+</main>
+</template>
+
+
+
+
+<!-- ======================================================================================
+
+     4.  LE FONCTIONNEMENT ET LE STYLE (à ne pas modifier)
+
+     ====================================================================================== -->
+
+<script src="fonctionnement/site.js?v=24.4"></script>
+</body>
+</html>
