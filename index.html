@@ -15,7 +15,7 @@
 <!-- l'icône du site -->
 <link rel="icon" type="image/png" href="images/site/icone.png">
 <link rel="apple-touch-icon" href="images/site/icone.png">
-<link rel="stylesheet" href="style/site.css?v=24.4">
+<link rel="stylesheet" href="style/site.css?v=24.5">
 
 </head>
 
@@ -176,13 +176,13 @@
       sous_en:     "INSA Strasbourg",
       annee:       "Hiver 2025",
 
-      couverture:  "images/projets/04-art-du-quotidien/s-coupe-persp.jpg",         // l'image du cahier
-      entier:      1.77,                                                        // la forme de cette image : largeur ÷ hauteur
+      couverture:  "images/projets/04-art-du-quotidien/s-rotonde.jpg",             // l'image du cahier
+      entier:      0.777,                                                       // la forme de cette image : largeur ÷ hauteur
 
       // les 2 ou 3 images posées sur la CARTE : ["image", largeur ÷ hauteur] (ajouter "plan" pour un dessin sur fond blanc)
       carte: [
-        ["images/projets/04-art-du-quotidien/s-coupe-persp.jpg", 1.77, "plan"],
-        ["images/projets/04-art-du-quotidien/s-rotonde.jpg", 0.78, "plan"]
+        ["images/projets/04-art-du-quotidien/s-rotonde.jpg", 0.78, "plan"],
+        ["images/projets/04-art-du-quotidien/s-coupe-persp.jpg", 1.77, "plan"]
       ]
     },
 
@@ -937,10 +937,10 @@
 
   <section class="p4-grille p4-ouverture">
     <fr>
-      <figure class="leg-bas p4-hero plan"><span class="im" tabindex="0" role="button"><img src="images/projets/04-art-du-quotidien/s-coupe-persp.jpg" alt="Coupe perspective de l’école"></span><figcaption>Coupe perspective de l’école</figcaption></figure>
+      <figure class="leg-bas p4-hero plan"><span class="im" tabindex="0" role="button"><img src="images/projets/04-art-du-quotidien/s-rotonde.jpg" alt="Plan de la rotonde, 2e étage"></span><figcaption>Plan de la rotonde, 2e étage</figcaption></figure>
     </fr>
     <en>
-      <figure class="leg-bas p4-hero plan"><span class="im" tabindex="0" role="button"><img src="images/projets/04-art-du-quotidien/s-coupe-persp.jpg" alt="Perspective section of the school"></span><figcaption>Perspective section of the school</figcaption></figure>
+      <figure class="leg-bas p4-hero plan"><span class="im" tabindex="0" role="button"><img src="images/projets/04-art-du-quotidien/s-rotonde.jpg" alt="Roundhouse plan, 2nd floor"></span><figcaption>Roundhouse plan, 2nd floor</figcaption></figure>
     </en>
     <div class="p4-coin">
       <div class="entete">
@@ -1015,14 +1015,14 @@
       </en>
     </div>
 
-    <figure class="p4-img plan bord-g" style="grid-column:1 / span 6;grid-row:1 / span 2;max-width:calc(var(--hmax) * 0.777)">
+    <figure class="p4-img plan bord-g" style="grid-column:1 / span 6;grid-row:1 / span 2;max-width:calc(var(--hmax) * 1.770)">
       <fr>
-        <span class="im" tabindex="0" role="button"><img src="images/projets/04-art-du-quotidien/s-rotonde.jpg" alt="Plan de la rotonde, 2e étage" loading="lazy"></span>
-        <figcaption>Plan de la rotonde, 2e étage</figcaption>
+        <span class="im" tabindex="0" role="button"><img src="images/projets/04-art-du-quotidien/s-coupe-persp.jpg" alt="Coupe perspective de l’école" loading="lazy"></span>
+        <figcaption>Coupe perspective de l’école</figcaption>
       </fr>
       <en>
-        <span class="im" tabindex="0" role="button"><img src="images/projets/04-art-du-quotidien/s-rotonde.jpg" alt="Roundhouse plan, 2nd floor" loading="lazy"></span>
-        <figcaption>Roundhouse plan, 2nd floor</figcaption>
+        <span class="im" tabindex="0" role="button"><img src="images/projets/04-art-du-quotidien/s-coupe-persp.jpg" alt="Perspective section of the school" loading="lazy"></span>
+        <figcaption>Perspective section of the school</figcaption>
       </en>
     </figure>
 
@@ -1822,7 +1822,7 @@
     <!-- ——————  GALERIE : une grande image, les petites en dessous (une ligne <button> par image)  —————— -->
 
     <div class="galerie-p" data-nom="g1" style="grid-column:1 / -1;grid-row:3">
-      <figure class="gp-scene plan"><span class="im" tabindex="0" role="button"><span class="gp-cadre"><img class="gp-grande" src="images/projets/09-centre-national-du-film/c-elevation-long.jpg" alt="" loading="lazy" draggable="false"></span></span></figure>
+      <figure class="gp-scene plan"><span class="im" tabindex="0" role="button"><span class="gp-cadre"><img class="gp-grande" src="images/projets/09-centre-national-du-film/c-coupe.jpg" alt="" loading="lazy" draggable="false"></span></span></figure>
       <div class="gp-bas">
         <span class="gp-compte">01 / 14</span>
         <fr>
@@ -1833,17 +1833,17 @@
         </en>
       </div>
       <div class="gp-vignettes">
-        <button type="button" class="gp-v on plan" data-src="images/projets/09-centre-national-du-film/c-elevation-long.jpg" data-r="2.857" style="--r:2.857" aria-label="Image 1"><img src="images/projets/09-centre-national-du-film/vignettes/c-elevation-long.jpg" alt="" loading="lazy" draggable="false"></button>
-        <button type="button" class="gp-v plan" data-src="images/projets/09-centre-national-du-film/c-coupe.jpg" data-r="0.766" style="--r:0.766" aria-label="Image 2"><img src="images/projets/09-centre-national-du-film/vignettes/c-coupe.jpg" alt="" loading="lazy" draggable="false"></button>
-        <button type="button" class="gp-v plan" data-src="images/projets/09-centre-national-du-film/c-axo.jpg" data-r="1.565" style="--r:1.565" aria-label="Image 3"><img src="images/projets/09-centre-national-du-film/vignettes/c-axo.jpg" alt="" loading="lazy" draggable="false"></button>
-        <button type="button" class="gp-v" data-src="images/projets/09-centre-national-du-film/c-elevation.jpg" data-r="1.178" style="--r:1.178" aria-label="Image 4"><img src="images/projets/09-centre-national-du-film/vignettes/c-elevation.jpg" alt="" loading="lazy" draggable="false"></button>
-        <button type="button" class="gp-v" data-src="images/projets/09-centre-national-du-film/c-facade.jpg" data-r="1.178" style="--r:1.178" aria-label="Image 5"><img src="images/projets/09-centre-national-du-film/vignettes/c-facade.jpg" alt="" loading="lazy" draggable="false"></button>
-        <button type="button" class="gp-v" data-src="images/projets/09-centre-national-du-film/c-int-1.jpg" data-r="1.176" style="--r:1.176" aria-label="Image 6"><img src="images/projets/09-centre-national-du-film/vignettes/c-int-1.jpg" alt="" loading="lazy" draggable="false"></button>
-        <button type="button" class="gp-v" data-src="images/projets/09-centre-national-du-film/c-int-6.jpg" data-r="0.978" style="--r:0.978" aria-label="Image 7"><img src="images/projets/09-centre-national-du-film/vignettes/c-int-6.jpg" alt="" loading="lazy" draggable="false"></button>
-        <button type="button" class="gp-v" data-src="images/projets/09-centre-national-du-film/c-int-7.jpg" data-r="1.016" style="--r:1.016" aria-label="Image 8"><img src="images/projets/09-centre-national-du-film/vignettes/c-int-7.jpg" alt="" loading="lazy" draggable="false"></button>
-        <button type="button" class="gp-v" data-src="images/projets/09-centre-national-du-film/c-int-8.jpg" data-r="0.582" style="--r:0.582" aria-label="Image 9"><img src="images/projets/09-centre-national-du-film/vignettes/c-int-8.jpg" alt="" loading="lazy" draggable="false"></button>
-        <button type="button" class="gp-v" data-src="images/projets/09-centre-national-du-film/c-int-3.jpg" data-r="1.179" style="--r:1.179" aria-label="Image 10"><img src="images/projets/09-centre-national-du-film/vignettes/c-int-3.jpg" alt="" loading="lazy" draggable="false"></button>
-        <button type="button" class="gp-v" data-src="images/projets/09-centre-national-du-film/c-int-2.jpg" data-r="1.176" style="--r:1.176" aria-label="Image 11"><img src="images/projets/09-centre-national-du-film/vignettes/c-int-2.jpg" alt="" loading="lazy" draggable="false"></button>
+        <button type="button" class="gp-v on plan" data-src="images/projets/09-centre-national-du-film/c-coupe.jpg" data-r="0.766" style="--r:0.766" aria-label="Image 1"><img src="images/projets/09-centre-national-du-film/vignettes/c-coupe.jpg" alt="" loading="lazy" draggable="false"></button>
+        <button type="button" class="gp-v plan" data-src="images/projets/09-centre-national-du-film/c-axo.jpg" data-r="1.565" style="--r:1.565" aria-label="Image 2"><img src="images/projets/09-centre-national-du-film/vignettes/c-axo.jpg" alt="" loading="lazy" draggable="false"></button>
+        <button type="button" class="gp-v" data-src="images/projets/09-centre-national-du-film/c-elevation.jpg" data-r="1.178" style="--r:1.178" aria-label="Image 3"><img src="images/projets/09-centre-national-du-film/vignettes/c-elevation.jpg" alt="" loading="lazy" draggable="false"></button>
+        <button type="button" class="gp-v" data-src="images/projets/09-centre-national-du-film/c-facade.jpg" data-r="1.178" style="--r:1.178" aria-label="Image 4"><img src="images/projets/09-centre-national-du-film/vignettes/c-facade.jpg" alt="" loading="lazy" draggable="false"></button>
+        <button type="button" class="gp-v" data-src="images/projets/09-centre-national-du-film/c-int-1.jpg" data-r="1.176" style="--r:1.176" aria-label="Image 5"><img src="images/projets/09-centre-national-du-film/vignettes/c-int-1.jpg" alt="" loading="lazy" draggable="false"></button>
+        <button type="button" class="gp-v" data-src="images/projets/09-centre-national-du-film/c-int-6.jpg" data-r="0.978" style="--r:0.978" aria-label="Image 6"><img src="images/projets/09-centre-national-du-film/vignettes/c-int-6.jpg" alt="" loading="lazy" draggable="false"></button>
+        <button type="button" class="gp-v" data-src="images/projets/09-centre-national-du-film/c-int-7.jpg" data-r="1.016" style="--r:1.016" aria-label="Image 7"><img src="images/projets/09-centre-national-du-film/vignettes/c-int-7.jpg" alt="" loading="lazy" draggable="false"></button>
+        <button type="button" class="gp-v" data-src="images/projets/09-centre-national-du-film/c-int-8.jpg" data-r="0.582" style="--r:0.582" aria-label="Image 8"><img src="images/projets/09-centre-national-du-film/vignettes/c-int-8.jpg" alt="" loading="lazy" draggable="false"></button>
+        <button type="button" class="gp-v" data-src="images/projets/09-centre-national-du-film/c-int-3.jpg" data-r="1.179" style="--r:1.179" aria-label="Image 9"><img src="images/projets/09-centre-national-du-film/vignettes/c-int-3.jpg" alt="" loading="lazy" draggable="false"></button>
+        <button type="button" class="gp-v" data-src="images/projets/09-centre-national-du-film/c-int-2.jpg" data-r="1.176" style="--r:1.176" aria-label="Image 10"><img src="images/projets/09-centre-national-du-film/vignettes/c-int-2.jpg" alt="" loading="lazy" draggable="false"></button>
+        <button type="button" class="gp-v" data-src="images/projets/09-centre-national-du-film/c-int-9.jpg" data-r="1.339" style="--r:1.339" aria-label="Image 11"><img src="images/projets/09-centre-national-du-film/vignettes/c-int-9.jpg" alt="" loading="lazy" draggable="false"></button>
         <button type="button" class="gp-v" data-src="images/projets/09-centre-national-du-film/c-film.jpg" data-r="1.333" style="--r:1.333" aria-label="Image 12"><img src="images/projets/09-centre-national-du-film/vignettes/c-film.jpg" alt="" loading="lazy" draggable="false"></button>
         <button type="button" class="gp-v" data-src="images/projets/09-centre-national-du-film/c-int-5.jpg" data-r="1.176" style="--r:1.176" aria-label="Image 13"><img src="images/projets/09-centre-national-du-film/vignettes/c-int-5.jpg" alt="" loading="lazy" draggable="false"></button>
         <button type="button" class="gp-v" data-src="images/projets/09-centre-national-du-film/c-rideau.jpg" data-r="1.181" style="--r:1.181" aria-label="Image 14"><img src="images/projets/09-centre-national-du-film/vignettes/c-rideau.jpg" alt="" loading="lazy" draggable="false"></button>
@@ -1913,6 +1913,6 @@
 
      ====================================================================================== -->
 
-<script src="fonctionnement/site.js?v=24.4"></script>
+<script src="fonctionnement/site.js?v=24.5"></script>
 </body>
 </html>

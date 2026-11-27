@@ -1741,7 +1741,7 @@ a.courriel { transition: color 0.3s; }
 }
 
 
-/* ACCUEIL : ton carnet de recherche (couverture en tissu), posé au centre de la table, par-dessus les feuilles */
+/* ACCUEIL : ton carnet noir, posé au centre de la table, par-dessus les feuilles */
 .calque.cahier { padding: 0; }
 .calque.cahier::before { display: none; }
 .calque.cahier img { filter: drop-shadow(0 14px 22px rgba(30, 30, 20, 0.28)) drop-shadow(0 2px 3px rgba(30, 30, 20, 0.25)); }
